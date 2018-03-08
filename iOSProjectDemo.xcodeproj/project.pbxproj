@@ -13,6 +13,7 @@
 		40F39C7120511AEE001209BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F39C7020511AEE001209BA /* Assets.xcassets */; };
 		40F39C7420511AEE001209BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F39C7220511AEE001209BA /* LaunchScreen.storyboard */; };
 		40F39C7720511AEF001209BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C7620511AEF001209BA /* main.m */; };
+		40F39C8020512C73001209BA /* CommonConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C7F20512C73001209BA /* CommonConst.m */; };
 		F7604773EA300C61D9F63F76 /* libPods-iOSProjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5687E909F67B6D232AF97 /* libPods-iOSProjectDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		40F39C7520511AEF001209BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F39C7620511AEF001209BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40F39C7D2051211C001209BA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		40F39C7E20512C73001209BA /* CommonConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonConst.h; sourceTree = "<group>"; };
+		40F39C7F20512C73001209BA /* CommonConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonConst.m; sourceTree = "<group>"; };
 		C793E486CBBC0849A02AD281 /* Pods-iOSProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProjectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProjectDemo/Pods-iOSProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D2476714EE435F4145BA79D0 /* Pods-iOSProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProjectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProjectDemo/Pods-iOSProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 			children = (
 				40F39C6720511AEE001209BA /* ZPAppDelegate.h */,
 				40F39C6820511AEE001209BA /* ZPAppDelegate.m */,
+				40F39C7E20512C73001209BA /* CommonConst.h */,
+				40F39C7F20512C73001209BA /* CommonConst.m */,
 				40F39C6A20511AEE001209BA /* ViewController.h */,
 				40F39C6B20511AEE001209BA /* ViewController.m */,
 				40F39C6D20511AEE001209BA /* Main.storyboard */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F39C8020512C73001209BA /* CommonConst.m in Sources */,
 				40F39C6C20511AEE001209BA /* ViewController.m in Sources */,
 				40F39C7720511AEF001209BA /* main.m in Sources */,
 				40F39C6920511AEE001209BA /* ZPAppDelegate.m in Sources */,
