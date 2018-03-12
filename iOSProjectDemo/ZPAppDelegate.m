@@ -7,6 +7,8 @@
 //
 
 #import "ZPAppDelegate.h"
+#import "LMJTabBarController.h"
+#import "YYFPSLabel.h"
 
 @interface ZPAppDelegate ()
 
@@ -14,9 +16,25 @@
 
 @implementation ZPAppDelegate
 
+- (UIWindow *)window
+{
+    if(!_window)
+    {
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        _window.backgroundColor = [UIColor RandomColor];
+        [_window makeKeyAndVisible];
+    }
+    return _window;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window.rootViewController = [[LMJTabBarController alloc] init];
+    
+    
+    // 刷新率
+    [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 70, 0, 0)]];
+    
     return YES;
 }
 

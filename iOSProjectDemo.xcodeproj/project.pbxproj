@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402545B520521F2200926F18 /* LMJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545B420521F2200926F18 /* LMJTabBarController.m */; };
+		402545C82052713F00926F18 /* LMJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545C32052713F00926F18 /* LMJHomeViewController.m */; };
+		402545F72052725A00926F18 /* LMJElementsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545CC2052725A00926F18 /* LMJElementsFlowLayout.m */; };
+		402545F82052725A00926F18 /* LMJNormalRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545CE2052725A00926F18 /* LMJNormalRefreshHeader.m */; };
+		402545F92052725A00926F18 /* LMJHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545CF2052725A00926F18 /* LMJHorizontalFlowLayout.m */; };
+		402545FA2052725A00926F18 /* LMJVerticalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545D12052725A00926F18 /* LMJVerticalFlowLayout.m */; };
+		402545FB2052725A00926F18 /* LMJAutoRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545D22052725A00926F18 /* LMJAutoRefreshFooter.m */; };
+		402545FC2052725A00926F18 /* LMJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545D52052725A00926F18 /* LMJNavigationBar.m */; };
+		402545FD2052725A00926F18 /* LMJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545D82052725A00926F18 /* LMJSettingCell.m */; };
+		402545FE2052725A00926F18 /* LMJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545DD2052725A00926F18 /* LMJBaseViewController.m */; };
+		402545FF2052725A00926F18 /* LMJRequestBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545DE2052725A00926F18 /* LMJRequestBaseViewController.m */; };
+		402546002052725A00926F18 /* LMJRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545E02052725A00926F18 /* LMJRefreshTableViewController.m */; };
+		402546012052725A00926F18 /* LMJStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545E12052725A00926F18 /* LMJStaticTableViewController.m */; };
+		402546022052725A00926F18 /* LMJTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545E22052725A00926F18 /* LMJTextViewController.m */; };
+		402546032052725A00926F18 /* LMJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545E32052725A00926F18 /* LMJWebViewController.m */; };
+		402546042052725A00926F18 /* LMJRefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545E52052725A00926F18 /* LMJRefreshCollectionViewController.m */; };
+		402546052052725A00926F18 /* LMJNavUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545E72052725A00926F18 /* LMJNavUIBaseViewController.m */; };
+		402546062052725A00926F18 /* LMJCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545E82052725A00926F18 /* LMJCollectionViewController.m */; };
+		402546072052725A00926F18 /* LMJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545EB2052725A00926F18 /* LMJTableViewController.m */; };
+		402546082052725A00926F18 /* LMJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545ED2052725A00926F18 /* LMJNavigationController.m */; };
+		402546092052725A00926F18 /* LMJItemSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545F32052725A00926F18 /* LMJItemSection.m */; };
+		4025460A2052725A00926F18 /* LMJWordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545F42052725A00926F18 /* LMJWordItem.m */; };
+		4025460B2052725A00926F18 /* LMJWordArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 402545F62052725A00926F18 /* LMJWordArrowItem.m */; };
 		40F39C6920511AEE001209BA /* ZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C6820511AEE001209BA /* ZPAppDelegate.m */; };
 		40F39C6C20511AEE001209BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C6B20511AEE001209BA /* ViewController.m */; };
 		40F39C6F20511AEE001209BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F39C6D20511AEE001209BA /* Main.storyboard */; };
@@ -47,6 +70,52 @@
 
 /* Begin PBXFileReference section */
 		3CD5687E909F67B6D232AF97 /* libPods-iOSProjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProjectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402545B320521F2200926F18 /* LMJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJTabBarController.h; sourceTree = "<group>"; };
+		402545B420521F2200926F18 /* LMJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJTabBarController.m; sourceTree = "<group>"; };
+		402545BF2052713E00926F18 /* LMJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJHomeViewController.h; sourceTree = "<group>"; };
+		402545C32052713F00926F18 /* LMJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJHomeViewController.m; sourceTree = "<group>"; };
+		402545CB2052725A00926F18 /* LMJAutoRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAutoRefreshFooter.h; sourceTree = "<group>"; };
+		402545CC2052725A00926F18 /* LMJElementsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJElementsFlowLayout.m; sourceTree = "<group>"; };
+		402545CD2052725A00926F18 /* LMJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationBar.h; sourceTree = "<group>"; };
+		402545CE2052725A00926F18 /* LMJNormalRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNormalRefreshHeader.m; sourceTree = "<group>"; };
+		402545CF2052725A00926F18 /* LMJHorizontalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJHorizontalFlowLayout.m; sourceTree = "<group>"; };
+		402545D02052725A00926F18 /* LMJSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJSettingCell.h; sourceTree = "<group>"; };
+		402545D12052725A00926F18 /* LMJVerticalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJVerticalFlowLayout.m; sourceTree = "<group>"; };
+		402545D22052725A00926F18 /* LMJAutoRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAutoRefreshFooter.m; sourceTree = "<group>"; };
+		402545D32052725A00926F18 /* LMJHorizontalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJHorizontalFlowLayout.h; sourceTree = "<group>"; };
+		402545D42052725A00926F18 /* LMJNormalRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNormalRefreshHeader.h; sourceTree = "<group>"; };
+		402545D52052725A00926F18 /* LMJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationBar.m; sourceTree = "<group>"; };
+		402545D62052725A00926F18 /* LMJElementsFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJElementsFlowLayout.h; sourceTree = "<group>"; };
+		402545D72052725A00926F18 /* LMJVerticalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJVerticalFlowLayout.h; sourceTree = "<group>"; };
+		402545D82052725A00926F18 /* LMJSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJSettingCell.m; sourceTree = "<group>"; };
+		402545DA2052725A00926F18 /* LMJRefreshCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRefreshCollectionViewController.h; sourceTree = "<group>"; };
+		402545DB2052725A00926F18 /* LMJNavUIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavUIBaseViewController.h; sourceTree = "<group>"; };
+		402545DC2052725A00926F18 /* LMJCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJCollectionViewController.h; sourceTree = "<group>"; };
+		402545DD2052725A00926F18 /* LMJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseViewController.m; sourceTree = "<group>"; };
+		402545DE2052725A00926F18 /* LMJRequestBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRequestBaseViewController.m; sourceTree = "<group>"; };
+		402545DF2052725A00926F18 /* LMJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJTableViewController.h; sourceTree = "<group>"; };
+		402545E02052725A00926F18 /* LMJRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRefreshTableViewController.m; sourceTree = "<group>"; };
+		402545E12052725A00926F18 /* LMJStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJStaticTableViewController.m; sourceTree = "<group>"; };
+		402545E22052725A00926F18 /* LMJTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJTextViewController.m; sourceTree = "<group>"; };
+		402545E32052725A00926F18 /* LMJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJWebViewController.m; sourceTree = "<group>"; };
+		402545E42052725A00926F18 /* LMJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationController.h; sourceTree = "<group>"; };
+		402545E52052725A00926F18 /* LMJRefreshCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRefreshCollectionViewController.m; sourceTree = "<group>"; };
+		402545E62052725A00926F18 /* LMJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaseViewController.h; sourceTree = "<group>"; };
+		402545E72052725A00926F18 /* LMJNavUIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavUIBaseViewController.m; sourceTree = "<group>"; };
+		402545E82052725A00926F18 /* LMJCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJCollectionViewController.m; sourceTree = "<group>"; };
+		402545E92052725A00926F18 /* LMJStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJStaticTableViewController.h; sourceTree = "<group>"; };
+		402545EA2052725A00926F18 /* LMJRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRefreshTableViewController.h; sourceTree = "<group>"; };
+		402545EB2052725A00926F18 /* LMJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJTableViewController.m; sourceTree = "<group>"; };
+		402545EC2052725A00926F18 /* LMJRequestBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRequestBaseViewController.h; sourceTree = "<group>"; };
+		402545ED2052725A00926F18 /* LMJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationController.m; sourceTree = "<group>"; };
+		402545EE2052725A00926F18 /* LMJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJWebViewController.h; sourceTree = "<group>"; };
+		402545EF2052725A00926F18 /* LMJTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJTextViewController.h; sourceTree = "<group>"; };
+		402545F12052725A00926F18 /* LMJWordItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJWordItem.h; sourceTree = "<group>"; };
+		402545F22052725A00926F18 /* LMJWordArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJWordArrowItem.h; sourceTree = "<group>"; };
+		402545F32052725A00926F18 /* LMJItemSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJItemSection.m; sourceTree = "<group>"; };
+		402545F42052725A00926F18 /* LMJWordItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJWordItem.m; sourceTree = "<group>"; };
+		402545F52052725A00926F18 /* LMJItemSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJItemSection.h; sourceTree = "<group>"; };
+		402545F62052725A00926F18 /* LMJWordArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJWordArrowItem.m; sourceTree = "<group>"; };
 		40F39C6420511AEE001209BA /* iOSProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F39C6720511AEE001209BA /* ZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAppDelegate.h; sourceTree = "<group>"; };
 		40F39C6820511AEE001209BA /* ZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +197,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402545B220521ED100926F18 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				402545B920526F5E00926F18 /* 控制器 */,
+				402545B320521F2200926F18 /* LMJTabBarController.h */,
+				402545B420521F2200926F18 /* LMJTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		402545B920526F5E00926F18 /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				402545BF2052713E00926F18 /* LMJHomeViewController.h */,
+				402545C32052713F00926F18 /* LMJHomeViewController.m */,
+			);
+			path = "控制器";
+			sourceTree = "<group>";
+		};
+		402545C92052725A00926F18 /* LMJBase */ = {
+			isa = PBXGroup;
+			children = (
+				402545CA2052725A00926F18 /* BaseView */,
+				402545D92052725A00926F18 /* BaseControllers */,
+				402545F02052725A00926F18 /* BaseModels */,
+			);
+			path = LMJBase;
+			sourceTree = "<group>";
+		};
+		402545CA2052725A00926F18 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				402545CB2052725A00926F18 /* LMJAutoRefreshFooter.h */,
+				402545CC2052725A00926F18 /* LMJElementsFlowLayout.m */,
+				402545CD2052725A00926F18 /* LMJNavigationBar.h */,
+				402545CE2052725A00926F18 /* LMJNormalRefreshHeader.m */,
+				402545CF2052725A00926F18 /* LMJHorizontalFlowLayout.m */,
+				402545D02052725A00926F18 /* LMJSettingCell.h */,
+				402545D12052725A00926F18 /* LMJVerticalFlowLayout.m */,
+				402545D22052725A00926F18 /* LMJAutoRefreshFooter.m */,
+				402545D32052725A00926F18 /* LMJHorizontalFlowLayout.h */,
+				402545D42052725A00926F18 /* LMJNormalRefreshHeader.h */,
+				402545D52052725A00926F18 /* LMJNavigationBar.m */,
+				402545D62052725A00926F18 /* LMJElementsFlowLayout.h */,
+				402545D72052725A00926F18 /* LMJVerticalFlowLayout.h */,
+				402545D82052725A00926F18 /* LMJSettingCell.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		402545D92052725A00926F18 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				402545DA2052725A00926F18 /* LMJRefreshCollectionViewController.h */,
+				402545DB2052725A00926F18 /* LMJNavUIBaseViewController.h */,
+				402545DC2052725A00926F18 /* LMJCollectionViewController.h */,
+				402545DD2052725A00926F18 /* LMJBaseViewController.m */,
+				402545DE2052725A00926F18 /* LMJRequestBaseViewController.m */,
+				402545DF2052725A00926F18 /* LMJTableViewController.h */,
+				402545E02052725A00926F18 /* LMJRefreshTableViewController.m */,
+				402545E12052725A00926F18 /* LMJStaticTableViewController.m */,
+				402545E22052725A00926F18 /* LMJTextViewController.m */,
+				402545E32052725A00926F18 /* LMJWebViewController.m */,
+				402545E52052725A00926F18 /* LMJRefreshCollectionViewController.m */,
+				402545E62052725A00926F18 /* LMJBaseViewController.h */,
+				402545E72052725A00926F18 /* LMJNavUIBaseViewController.m */,
+				402545E82052725A00926F18 /* LMJCollectionViewController.m */,
+				402545E92052725A00926F18 /* LMJStaticTableViewController.h */,
+				402545EA2052725A00926F18 /* LMJRefreshTableViewController.h */,
+				402545EB2052725A00926F18 /* LMJTableViewController.m */,
+				402545EC2052725A00926F18 /* LMJRequestBaseViewController.h */,
+				402545E42052725A00926F18 /* LMJNavigationController.h */,
+				402545ED2052725A00926F18 /* LMJNavigationController.m */,
+				402545EE2052725A00926F18 /* LMJWebViewController.h */,
+				402545EF2052725A00926F18 /* LMJTextViewController.h */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		402545F02052725A00926F18 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				402545F12052725A00926F18 /* LMJWordItem.h */,
+				402545F22052725A00926F18 /* LMJWordArrowItem.h */,
+				402545F32052725A00926F18 /* LMJItemSection.m */,
+				402545F42052725A00926F18 /* LMJWordItem.m */,
+				402545F52052725A00926F18 /* LMJItemSection.h */,
+				402545F62052725A00926F18 /* LMJWordArrowItem.m */,
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
 		40F39C5B20511AEE001209BA = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +310,8 @@
 		40F39C6620511AEE001209BA /* iOSProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				402545C92052725A00926F18 /* LMJBase */,
+				402545B220521ED100926F18 /* Main */,
 				40F39C812052156C001209BA /* Classes */,
 				40F39C6720511AEE001209BA /* ZPAppDelegate.h */,
 				40F39C6820511AEE001209BA /* ZPAppDelegate.m */,
@@ -480,30 +643,53 @@
 				40F39CC4205215CA001209BA /* YYFPSLabel.m in Sources */,
 				40F39CD0205215CA001209BA /* UITextView+WZB.m in Sources */,
 				40F39CC1205215CA001209BA /* LMJEasyBlankPageView.m in Sources */,
+				402546002052725A00926F18 /* LMJRefreshTableViewController.m in Sources */,
 				40F39CBB205215CA001209BA /* LMJBaseRequest.m in Sources */,
 				40F39CC5205215CA001209BA /* AdvertiseHelper.m in Sources */,
+				402545FE2052725A00926F18 /* LMJBaseViewController.m in Sources */,
+				402545FC2052725A00926F18 /* LMJNavigationBar.m in Sources */,
 				40F39CCD205215CA001209BA /* MBProgressHUD+LMJ.m in Sources */,
 				40F39CCF205215CA001209BA /* NullSafe.m in Sources */,
+				402546032052725A00926F18 /* LMJWebViewController.m in Sources */,
+				402546042052725A00926F18 /* LMJRefreshCollectionViewController.m in Sources */,
+				402545FF2052725A00926F18 /* LMJRequestBaseViewController.m in Sources */,
 				40F39CC2205215CA001209BA /* LMJUMengHelper.m in Sources */,
 				40F39C8020512C73001209BA /* CommonConst.m in Sources */,
 				40F39C6C20511AEE001209BA /* ViewController.m in Sources */,
+				402545FA2052725A00926F18 /* LMJVerticalFlowLayout.m in Sources */,
 				40F39CBD205215CA001209BA /* LMJRequestManager.m in Sources */,
 				40F39CBC205215CA001209BA /* LMJBaseResponse.m in Sources */,
 				40F39CC8205215CA001209BA /* LMJIntroductoryPagesView.m in Sources */,
 				40F39CC7205215CA001209BA /* LMJIntroductoryPagesHelper.m in Sources */,
 				40F39CD4205215CA001209BA /* UIColor+Random.m in Sources */,
 				40F39C7720511AEF001209BA /* main.m in Sources */,
+				402545F92052725A00926F18 /* LMJHorizontalFlowLayout.m in Sources */,
 				40F39CD3205215CA001209BA /* UIButton+LMJ.m in Sources */,
 				40F39C6920511AEE001209BA /* ZPAppDelegate.m in Sources */,
 				40F39CD1205215CA001209BA /* UIView+GestureCallback.m in Sources */,
+				4025460B2052725A00926F18 /* LMJWordArrowItem.m in Sources */,
+				402545FD2052725A00926F18 /* LMJSettingCell.m in Sources */,
+				402546082052725A00926F18 /* LMJNavigationController.m in Sources */,
+				402546022052725A00926F18 /* LMJTextViewController.m in Sources */,
+				402545B520521F2200926F18 /* LMJTabBarController.m in Sources */,
 				40F39CC3205215CA001209BA /* UIImageView+FitNet.m in Sources */,
 				40F39CCE205215CA001209BA /* NSDecimalNumber+Addtion.m in Sources */,
+				402545C82052713F00926F18 /* LMJHomeViewController.m in Sources */,
+				402546062052725A00926F18 /* LMJCollectionViewController.m in Sources */,
+				402545F72052725A00926F18 /* LMJElementsFlowLayout.m in Sources */,
 				40F39CD5205215CA001209BA /* UIView+LMJNjHuFrame.m in Sources */,
 				40F39CC6205215CA001209BA /* AdvertiseView.m in Sources */,
 				40F39CBE205215CA001209BA /* CalendarReminderManager.m in Sources */,
+				402546072052725A00926F18 /* LMJTableViewController.m in Sources */,
+				402545FB2052725A00926F18 /* LMJAutoRefreshFooter.m in Sources */,
+				402546092052725A00926F18 /* LMJItemSection.m in Sources */,
 				40F39CBF205215CA001209BA /* GVUserDefaults+LMJ.m in Sources */,
 				40F39CD2205215CA001209BA /* UIViewController+DDPopUpViewController.m in Sources */,
 				40F39CC0205215CA001209BA /* JXTAlertController.m in Sources */,
+				4025460A2052725A00926F18 /* LMJWordItem.m in Sources */,
+				402545F82052725A00926F18 /* LMJNormalRefreshHeader.m in Sources */,
+				402546012052725A00926F18 /* LMJStaticTableViewController.m in Sources */,
+				402546052052725A00926F18 /* LMJNavUIBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
