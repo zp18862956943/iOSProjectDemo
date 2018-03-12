@@ -7,7 +7,19 @@
 //
 
 #import "LMJHomeViewController.h"
-
+#import "LMJWebViewController.h"
+#import "LMJLiftCycleViewController.h"
+#import "LMJRunTimeViewController.h"
+#import "LMJNSThreadViewController.h"
+#import "LMJGCDViewController.h"
+#import "LMJNSOperationViewController.h"
+#import "LMJLockViewController.h"
+#import "LMJProtocolViewController.h"
+#import "LMJBlockLoopViewController.h"
+#import "LMJRunLoopViewController.h"
+#import "LMJDynamicViewController.h"
+#import "LMJCoreAnimationViewController.h"
+#import "LMJDrawRectViewController.h"
 
 @interface LMJHomeViewController ()
 
@@ -23,7 +35,60 @@
     edgeInsets.bottom += self.tabBarController.tabBar.lmj_height;
     self.tableView.contentInset = edgeInsets;
     
+    LMJWordArrowItem *item00 = [LMJWordArrowItem itemWithTitle:@"ViewController的生命周期" subTitle: nil];
+    item00.destVc = [LMJLiftCycleViewController class];
     
+    LMJWordArrowItem *item01 = [LMJWordArrowItem itemWithTitle:@"运行时RunTime 的知识运用" subTitle: nil];
+    item01.destVc = [LMJRunTimeViewController class];
+    
+    LMJWordArrowItem *item03 = [LMJWordArrowItem itemWithTitle:@"Protocol 的实现类" subTitle: nil];
+    item03.destVc = [LMJProtocolViewController class];
+    
+    
+    LMJWordArrowItem *item04 = [LMJWordArrowItem itemWithTitle:@"Block 内存释放" subTitle: nil];
+    item04.destVc = [LMJBlockLoopViewController class];
+    
+    
+    LMJItemSection *section0 = [LMJItemSection sectionWithItems:@[item00, item01, item03, item04] andHeaderTitle:@"生命周期, RunTime" footerTitle:nil];
+    
+    [self.sections addObject:section0];
+    
+    
+    
+    LMJWordArrowItem *item10 = [LMJWordArrowItem itemWithTitle:@"NSThread 多线程" subTitle: nil];
+    item10.destVc = [LMJNSThreadViewController class];
+    
+    LMJWordArrowItem *item11 = [LMJWordArrowItem itemWithTitle:@"GCD 多线程" subTitle: nil];
+    item11.destVc = [LMJGCDViewController class];
+    
+    LMJWordArrowItem *item12 = [LMJWordArrowItem itemWithTitle:@" NSOperation 多线程" subTitle: nil];
+    item12.destVc = [LMJNSOperationViewController class];
+    
+    LMJWordArrowItem *item13 = [LMJWordArrowItem itemWithTitle:@"同步锁知识" subTitle: nil];
+    item13.destVc = [LMJLockViewController class];
+    
+    LMJWordArrowItem *item14 = [LMJWordArrowItem itemWithTitle:@"RunLoop" subTitle: @"建议看"];
+    item14.destVc = [LMJRunLoopViewController class];
+    
+    LMJItemSection *section1 = [LMJItemSection sectionWithItems:@[item10, item11, item12, item14, item13] andHeaderTitle:@"NSThread, GCD, NSOperation, Lock, RunLoop" footerTitle:nil];
+    [self.sections addObject:section1];
+    
+    
+    LMJWordArrowItem *item20 = [LMJWordArrowItem itemWithTitle:@"物理仿真" subTitle: @"UIDynamic"];
+    
+    item20.destVc = [LMJDynamicViewController class];
+    
+    LMJWordArrowItem *item21 = [LMJWordArrowItem itemWithTitle:@"核心动画" subTitle: @"CATransform3D"];
+    
+    item21.destVc = [LMJCoreAnimationViewController class];
+    
+    LMJWordArrowItem *item22 = [LMJWordArrowItem itemWithTitle:@"绘图 Quartz2D" subTitle: @"drawRect"];
+    
+    item22.destVc = [LMJDrawRectViewController class];
+    
+    LMJItemSection *section2 = [LMJItemSection sectionWithItems:@[item22, item21, item20] andHeaderTitle:@"物理仿真, 核心动画, 绘图 Quartz2D" footerTitle:nil];
+    
+    [self.sections addObject:section2];
     
     UITabBarItem *homeItem = self.navigationController.tabBarItem;
     
