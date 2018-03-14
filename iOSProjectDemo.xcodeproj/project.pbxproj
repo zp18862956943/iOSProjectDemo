@@ -108,6 +108,73 @@
 		40388DAC20560C4F00346131 /* LMJDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388D9020560C4F00346131 /* LMJDrawingView.m */; };
 		40388DAD20560C4F00346131 /* LMJHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388D9120560C4F00346131 /* LMJHandleView.m */; };
 		40388DAE20560C4F00346131 /* LMJBezierPathCP.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388D9220560C4F00346131 /* LMJBezierPathCP.m */; };
+		40388DB1205672AA00346131 /* LMJNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DB0205672AA00346131 /* LMJNewViewController.m */; };
+		40388E20205672D400346131 /* LMJDragTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DB4205672D300346131 /* LMJDragTableViewController.m */; };
+		40388E21205672D400346131 /* LMJTableSDWebImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DB5205672D300346131 /* LMJTableSDWebImageViewController.m */; };
+		40388E22205672D400346131 /* LMJVFLLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DB6205672D300346131 /* LMJVFLLayoutViewController.m */; };
+		40388E23205672D400346131 /* LMJCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DBA205672D300346131 /* LMJCalendarViewController.m */; };
+		40388E24205672D400346131 /* MJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DBE205672D300346131 /* MJDownloadManager.m */; };
+		40388E25205672D400346131 /* MJDownloadConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DBF205672D300346131 /* MJDownloadConst.m */; };
+		40388E26205672D400346131 /* NSString+MJDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DC2205672D300346131 /* NSString+MJDownload.m */; };
+		40388E27205672D400346131 /* LMJFingerCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DC5205672D300346131 /* LMJFingerCheckViewController.m */; };
+		40388E28205672D400346131 /* LMJXGMVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DC9205672D300346131 /* LMJXGMVideo.m */; };
+		40388E29205672D400346131 /* LMJExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DCC205672D300346131 /* LMJExpandHeader.m */; };
+		40388E2A205672D400346131 /* LMJExpandImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DCD205672D300346131 /* LMJExpandImageView.m */; };
+		40388E2B205672D400346131 /* LMJOfflineDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DCF205672D300346131 /* LMJOfflineDownloadViewController.m */; };
+		40388E2C205672D400346131 /* LMJAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DD0205672D300346131 /* LMJAutoLayoutViewController.m */; };
+		40388E2D205672D400346131 /* LMJNavBarFadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DD1205672D300346131 /* LMJNavBarFadeViewController.m */; };
+		40388E2F205672D400346131 /* LMJQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DD9205672D300346131 /* LMJQRCodeViewController.m */; };
+		40388E30205672D400346131 /* LMJAlertViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DDC205672D300346131 /* LMJAlertViewsViewController.m */; };
+		40388E32205672D400346131 /* LMJH5_OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DDF205672D300346131 /* LMJH5_OCViewController.m */; };
+		40388E33205672D400346131 /* LMJFillTableFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DE0205672D300346131 /* LMJFillTableFormViewController.m */; };
+		40388E34205672D400346131 /* LMJBaiduPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DE4205672D300346131 /* LMJBaiduPointAnnotation.m */; };
+		40388E35205672D400346131 /* LMJCoordinateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DE5205672D300346131 /* LMJCoordinateModel.m */; };
+		40388E36205672D400346131 /* LMJCountDownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DE6205672D300346131 /* LMJCountDownModel.m */; };
+		40388E37205672D400346131 /* LMJH5_OCViewController.html in Resources */ = {isa = PBXBuildFile; fileRef = 40388DE7205672D300346131 /* LMJH5_OCViewController.html */; };
+		40388E38205672D400346131 /* LMJOCJSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DE9205672D300346131 /* LMJOCJSHelper.m */; };
+		40388E39205672D400346131 /* LMJListTimerCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DEC205672D300346131 /* LMJListTimerCountDownViewController.m */; };
+		40388E3A205672D400346131 /* LMJCountDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DEF205672D400346131 /* LMJCountDownCell.m */; };
+		40388E3B205672D400346131 /* LMJAnnotationCustomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DF1205672D400346131 /* LMJAnnotationCustomPopView.m */; };
+		40388E3C205672D400346131 /* LMJAnnotationCustomPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40388DF2205672D400346131 /* LMJAnnotationCustomPopView.xib */; };
+		40388E3D205672D400346131 /* LMJUpLoadImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40388DF3205672D400346131 /* LMJUpLoadImageCell.xib */; };
+		40388E3E205672D400346131 /* LMJUpLoadImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DF5205672D400346131 /* LMJUpLoadImageCell.m */; };
+		40388E3F205672D400346131 /* LMJBaiduMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DF6205672D400346131 /* LMJBaiduMapViewController.m */; };
+		40388E40205672D400346131 /* LMJMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DF9205672D400346131 /* LMJMasonryViewController.m */; };
+		40388E41205672D400346131 /* LMJYYTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DFB205672D400346131 /* LMJYYTextViewController.m */; };
+		40388E42205672D400346131 /* LMJHorizontalLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DFE205672D400346131 /* LMJHorizontalLayoutViewController.m */; };
+		40388E43205672D400346131 /* LMJNoNavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388DFF205672D400346131 /* LMJNoNavBarViewController.m */; };
+		40388E44205672D400346131 /* LMJAnimationNavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E01205672D400346131 /* LMJAnimationNavBarViewController.m */; };
+		40388E45205672D400346131 /* LMJKeyboardHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E02205672D400346131 /* LMJKeyboardHandleViewController.m */; };
+		40388E46205672D400346131 /* LMJListExpandHideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E07205672D400346131 /* LMJListExpandHideViewController.m */; };
+		40388E47205672D400346131 /* LMJVerticalLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E08205672D400346131 /* LMJVerticalLayoutViewController.m */; };
+		40388E48205672D400346131 /* team_dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40388E10205672D400346131 /* team_dictionary.plist */; };
+		40388E49205672D400346131 /* LMJTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E11205672D400346131 /* LMJTeam.m */; };
+		40388E4A205672D400346131 /* LMJGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E12205672D400346131 /* LMJGroup.m */; };
+		40388E4B205672D400346131 /* LMJParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E13205672D400346131 /* LMJParagraph.m */; };
+		40388E4C205672D400346131 /* LMJAdaptFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E15205672D400346131 /* LMJAdaptFontCell.m */; };
+		40388E4D205672D400346131 /* LMJListExpendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E18205672D400346131 /* LMJListExpendHeaderView.m */; };
+		40388E4E205672D400346131 /* LMJAddressPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E19205672D400346131 /* LMJAddressPickerViewController.m */; };
+		40388E4F205672D400346131 /* LMJBlankPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E1A205672D400346131 /* LMJBlankPageViewController.m */; };
+		40388E50205672D400346131 /* LMJElementsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E1B205672D400346131 /* LMJElementsCollectionViewController.m */; };
+		40388E51205672D400346131 /* LMJDownLoadFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E1E205672D400346131 /* LMJDownLoadFileViewController.m */; };
+		40388E52205672D400346131 /* LMJAdaptFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E1F205672D400346131 /* LMJAdaptFontViewController.m */; };
+		40388E74205672F700346131 /* VIDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E55205672F700346131 /* VIDTabBarController.m */; };
+		40388E75205672F700346131 /* VIDNetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E56205672F700346131 /* VIDNetListViewController.m */; };
+		40388E76205672F700346131 /* VIDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E57205672F700346131 /* VIDTableViewController.m */; };
+		40388E77205672F700346131 /* VIDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E58205672F700346131 /* VIDCollectionViewController.m */; };
+		40388E78205672F700346131 /* VIDLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E5E205672F700346131 /* VIDLocalViewController.m */; };
+		40388E79205672F700346131 /* VIDMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E5F205672F700346131 /* VIDMoviePlayerViewController.m */; };
+		40388E7A205672F700346131 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 40388E63205672F700346131 /* videoData.json */; };
+		40388E7B205672F700346131 /* ZFVideoResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E64205672F700346131 /* ZFVideoResolution.m */; };
+		40388E7C205672F700346131 /* ZFVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E66205672F700346131 /* ZFVideoModel.m */; };
+		40388E7D205672F700346131 /* VIDTableViewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E68205672F700346131 /* VIDTableViewVideoCell.m */; };
+		40388E7E205672F700346131 /* VIDVideoDownloadedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E69205672F700346131 /* VIDVideoDownloadedCell.m */; };
+		40388E7F205672F700346131 /* VIDTableViewVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40388E6C205672F700346131 /* VIDTableViewVideoCell.xib */; };
+		40388E80205672F700346131 /* VIDVideoDownloadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40388E6E205672F700346131 /* VIDVideoDownloadingCell.xib */; };
+		40388E81205672F700346131 /* VIDVideoDownloadedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40388E6F205672F700346131 /* VIDVideoDownloadedCell.xib */; };
+		40388E82205672F700346131 /* VIDCollectionViewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E70205672F700346131 /* VIDCollectionViewVideoCell.m */; };
+		40388E83205672F700346131 /* VIDCollectionViewVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40388E71205672F700346131 /* VIDCollectionViewVideoCell.xib */; };
+		40388E84205672F700346131 /* VIDVideoDownloadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E72205672F700346131 /* VIDVideoDownloadingCell.m */; };
 		40F39C6920511AEE001209BA /* ZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C6820511AEE001209BA /* ZPAppDelegate.m */; };
 		40F39C6C20511AEE001209BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C6B20511AEE001209BA /* ViewController.m */; };
 		40F39C6F20511AEE001209BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F39C6D20511AEE001209BA /* Main.storyboard */; };
@@ -335,6 +402,132 @@
 		40388D9320560C4F00346131 /* LMJDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJDrawingView.h; sourceTree = "<group>"; };
 		40388D9420560C4F00346131 /* LMJHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJHandleView.h; sourceTree = "<group>"; };
 		40388D9520560C4F00346131 /* LMJDrawRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJDrawRectViewController.h; sourceTree = "<group>"; };
+		40388DAF205672A900346131 /* LMJNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNewViewController.h; sourceTree = "<group>"; };
+		40388DB0205672AA00346131 /* LMJNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNewViewController.m; sourceTree = "<group>"; };
+		40388DB3205672D300346131 /* LMJFingerCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJFingerCheckViewController.h; sourceTree = "<group>"; };
+		40388DB4205672D300346131 /* LMJDragTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJDragTableViewController.m; sourceTree = "<group>"; };
+		40388DB5205672D300346131 /* LMJTableSDWebImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJTableSDWebImageViewController.m; sourceTree = "<group>"; };
+		40388DB6205672D300346131 /* LMJVFLLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJVFLLayoutViewController.m; sourceTree = "<group>"; };
+		40388DB7205672D300346131 /* LMJNavBarFadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavBarFadeViewController.h; sourceTree = "<group>"; };
+		40388DB8205672D300346131 /* LMJAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAutoLayoutViewController.h; sourceTree = "<group>"; };
+		40388DB9205672D300346131 /* LMJOfflineDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJOfflineDownloadViewController.h; sourceTree = "<group>"; };
+		40388DBA205672D300346131 /* LMJCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJCalendarViewController.m; sourceTree = "<group>"; };
+		40388DBD205672D300346131 /* NSString+MJDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJDownload.h"; sourceTree = "<group>"; };
+		40388DBE205672D300346131 /* MJDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDownloadManager.m; sourceTree = "<group>"; };
+		40388DBF205672D300346131 /* MJDownloadConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDownloadConst.m; sourceTree = "<group>"; };
+		40388DC0205672D300346131 /* MJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDownloadManager.h; sourceTree = "<group>"; };
+		40388DC1205672D300346131 /* MJDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDownload.h; sourceTree = "<group>"; };
+		40388DC2205672D300346131 /* NSString+MJDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJDownload.m"; sourceTree = "<group>"; };
+		40388DC3205672D300346131 /* MJDownloadConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDownloadConst.h; sourceTree = "<group>"; };
+		40388DC4205672D300346131 /* LMJDragTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJDragTableViewController.h; sourceTree = "<group>"; };
+		40388DC5205672D300346131 /* LMJFingerCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJFingerCheckViewController.m; sourceTree = "<group>"; };
+		40388DC6205672D300346131 /* LMJTableSDWebImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJTableSDWebImageViewController.h; sourceTree = "<group>"; };
+		40388DC8205672D300346131 /* LMJXGMVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJXGMVideo.h; sourceTree = "<group>"; };
+		40388DC9205672D300346131 /* LMJXGMVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJXGMVideo.m; sourceTree = "<group>"; };
+		40388DCB205672D300346131 /* LMJExpandImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJExpandImageView.h; sourceTree = "<group>"; };
+		40388DCC205672D300346131 /* LMJExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJExpandHeader.m; sourceTree = "<group>"; };
+		40388DCD205672D300346131 /* LMJExpandImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJExpandImageView.m; sourceTree = "<group>"; };
+		40388DCE205672D300346131 /* LMJExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJExpandHeader.h; sourceTree = "<group>"; };
+		40388DCF205672D300346131 /* LMJOfflineDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJOfflineDownloadViewController.m; sourceTree = "<group>"; };
+		40388DD0205672D300346131 /* LMJAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAutoLayoutViewController.m; sourceTree = "<group>"; };
+		40388DD1205672D300346131 /* LMJNavBarFadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavBarFadeViewController.m; sourceTree = "<group>"; };
+		40388DD2205672D300346131 /* LMJVFLLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJVFLLayoutViewController.h; sourceTree = "<group>"; };
+		40388DD3205672D300346131 /* LMJCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJCalendarViewController.h; sourceTree = "<group>"; };
+		40388DD5205672D300346131 /* LMJFillTableFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJFillTableFormViewController.h; sourceTree = "<group>"; };
+		40388DD6205672D300346131 /* LMJH5_OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJH5_OCViewController.h; sourceTree = "<group>"; };
+		40388DD8205672D300346131 /* LMJListTimerCountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJListTimerCountDownViewController.h; sourceTree = "<group>"; };
+		40388DD9205672D300346131 /* LMJQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJQRCodeViewController.m; sourceTree = "<group>"; };
+		40388DDA205672D300346131 /* LMJBaiduMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaiduMapViewController.h; sourceTree = "<group>"; };
+		40388DDB205672D300346131 /* LMJMasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJMasonryViewController.h; sourceTree = "<group>"; };
+		40388DDC205672D300346131 /* LMJAlertViewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAlertViewsViewController.m; sourceTree = "<group>"; };
+		40388DDF205672D300346131 /* LMJH5_OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJH5_OCViewController.m; sourceTree = "<group>"; };
+		40388DE0205672D300346131 /* LMJFillTableFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJFillTableFormViewController.m; sourceTree = "<group>"; };
+		40388DE1205672D300346131 /* LMJQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJQRCodeViewController.h; sourceTree = "<group>"; };
+		40388DE3205672D300346131 /* LMJOCJSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJOCJSHelper.h; sourceTree = "<group>"; };
+		40388DE4205672D300346131 /* LMJBaiduPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaiduPointAnnotation.m; sourceTree = "<group>"; };
+		40388DE5205672D300346131 /* LMJCoordinateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJCoordinateModel.m; sourceTree = "<group>"; };
+		40388DE6205672D300346131 /* LMJCountDownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJCountDownModel.m; sourceTree = "<group>"; };
+		40388DE7205672D300346131 /* LMJH5_OCViewController.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LMJH5_OCViewController.html; sourceTree = "<group>"; };
+		40388DE8205672D300346131 /* LMJBaiduPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaiduPointAnnotation.h; sourceTree = "<group>"; };
+		40388DE9205672D300346131 /* LMJOCJSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJOCJSHelper.m; sourceTree = "<group>"; };
+		40388DEA205672D300346131 /* LMJCountDownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJCountDownModel.h; sourceTree = "<group>"; };
+		40388DEB205672D300346131 /* LMJCoordinateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJCoordinateModel.h; sourceTree = "<group>"; };
+		40388DEC205672D300346131 /* LMJListTimerCountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJListTimerCountDownViewController.m; sourceTree = "<group>"; };
+		40388DEE205672D300346131 /* LMJAnnotationCustomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAnnotationCustomPopView.h; sourceTree = "<group>"; };
+		40388DEF205672D400346131 /* LMJCountDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJCountDownCell.m; sourceTree = "<group>"; };
+		40388DF0205672D400346131 /* LMJUpLoadImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJUpLoadImageCell.h; sourceTree = "<group>"; };
+		40388DF1205672D400346131 /* LMJAnnotationCustomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAnnotationCustomPopView.m; sourceTree = "<group>"; };
+		40388DF2205672D400346131 /* LMJAnnotationCustomPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMJAnnotationCustomPopView.xib; sourceTree = "<group>"; };
+		40388DF3205672D400346131 /* LMJUpLoadImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMJUpLoadImageCell.xib; sourceTree = "<group>"; };
+		40388DF4205672D400346131 /* LMJCountDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJCountDownCell.h; sourceTree = "<group>"; };
+		40388DF5205672D400346131 /* LMJUpLoadImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJUpLoadImageCell.m; sourceTree = "<group>"; };
+		40388DF6205672D400346131 /* LMJBaiduMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaiduMapViewController.m; sourceTree = "<group>"; };
+		40388DF8205672D400346131 /* LMJAlertViewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAlertViewsViewController.h; sourceTree = "<group>"; };
+		40388DF9205672D400346131 /* LMJMasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJMasonryViewController.m; sourceTree = "<group>"; };
+		40388DFB205672D400346131 /* LMJYYTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJYYTextViewController.m; sourceTree = "<group>"; };
+		40388DFC205672D400346131 /* LMJListExpandHideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJListExpandHideViewController.h; sourceTree = "<group>"; };
+		40388DFD205672D400346131 /* LMJVerticalLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJVerticalLayoutViewController.h; sourceTree = "<group>"; };
+		40388DFE205672D400346131 /* LMJHorizontalLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJHorizontalLayoutViewController.m; sourceTree = "<group>"; };
+		40388DFF205672D400346131 /* LMJNoNavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNoNavBarViewController.m; sourceTree = "<group>"; };
+		40388E00205672D400346131 /* LMJDownLoadFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJDownLoadFileViewController.h; sourceTree = "<group>"; };
+		40388E01205672D400346131 /* LMJAnimationNavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAnimationNavBarViewController.m; sourceTree = "<group>"; };
+		40388E02205672D400346131 /* LMJKeyboardHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJKeyboardHandleViewController.m; sourceTree = "<group>"; };
+		40388E03205672D400346131 /* LMJBlankPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBlankPageViewController.h; sourceTree = "<group>"; };
+		40388E04205672D400346131 /* LMJElementsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJElementsCollectionViewController.h; sourceTree = "<group>"; };
+		40388E05205672D400346131 /* LMJAddressPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAddressPickerViewController.h; sourceTree = "<group>"; };
+		40388E06205672D400346131 /* LMJAdaptFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAdaptFontViewController.h; sourceTree = "<group>"; };
+		40388E07205672D400346131 /* LMJListExpandHideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJListExpandHideViewController.m; sourceTree = "<group>"; };
+		40388E08205672D400346131 /* LMJVerticalLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJVerticalLayoutViewController.m; sourceTree = "<group>"; };
+		40388E09205672D400346131 /* LMJHorizontalLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJHorizontalLayoutViewController.h; sourceTree = "<group>"; };
+		40388E0A205672D400346131 /* LMJYYTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJYYTextViewController.h; sourceTree = "<group>"; };
+		40388E0B205672D400346131 /* LMJNoNavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNoNavBarViewController.h; sourceTree = "<group>"; };
+		40388E0D205672D400346131 /* LMJTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJTeam.h; sourceTree = "<group>"; };
+		40388E0E205672D400346131 /* LMJParagraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJParagraph.h; sourceTree = "<group>"; };
+		40388E0F205672D400346131 /* LMJGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJGroup.h; sourceTree = "<group>"; };
+		40388E10205672D400346131 /* team_dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = team_dictionary.plist; sourceTree = "<group>"; };
+		40388E11205672D400346131 /* LMJTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJTeam.m; sourceTree = "<group>"; };
+		40388E12205672D400346131 /* LMJGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJGroup.m; sourceTree = "<group>"; };
+		40388E13205672D400346131 /* LMJParagraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJParagraph.m; sourceTree = "<group>"; };
+		40388E15205672D400346131 /* LMJAdaptFontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAdaptFontCell.m; sourceTree = "<group>"; };
+		40388E16205672D400346131 /* LMJListExpendHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJListExpendHeaderView.h; sourceTree = "<group>"; };
+		40388E17205672D400346131 /* LMJAdaptFontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAdaptFontCell.h; sourceTree = "<group>"; };
+		40388E18205672D400346131 /* LMJListExpendHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJListExpendHeaderView.m; sourceTree = "<group>"; };
+		40388E19205672D400346131 /* LMJAddressPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAddressPickerViewController.m; sourceTree = "<group>"; };
+		40388E1A205672D400346131 /* LMJBlankPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBlankPageViewController.m; sourceTree = "<group>"; };
+		40388E1B205672D400346131 /* LMJElementsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJElementsCollectionViewController.m; sourceTree = "<group>"; };
+		40388E1C205672D400346131 /* LMJKeyboardHandleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJKeyboardHandleViewController.h; sourceTree = "<group>"; };
+		40388E1D205672D400346131 /* LMJAnimationNavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAnimationNavBarViewController.h; sourceTree = "<group>"; };
+		40388E1E205672D400346131 /* LMJDownLoadFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJDownLoadFileViewController.m; sourceTree = "<group>"; };
+		40388E1F205672D400346131 /* LMJAdaptFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAdaptFontViewController.m; sourceTree = "<group>"; };
+		40388E55205672F700346131 /* VIDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDTabBarController.m; sourceTree = "<group>"; };
+		40388E56205672F700346131 /* VIDNetListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDNetListViewController.m; sourceTree = "<group>"; };
+		40388E57205672F700346131 /* VIDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDTableViewController.m; sourceTree = "<group>"; };
+		40388E58205672F700346131 /* VIDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDCollectionViewController.m; sourceTree = "<group>"; };
+		40388E59205672F700346131 /* VIDMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDMoviePlayerViewController.h; sourceTree = "<group>"; };
+		40388E5A205672F700346131 /* VIDLocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDLocalViewController.h; sourceTree = "<group>"; };
+		40388E5B205672F700346131 /* VIDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDTabBarController.h; sourceTree = "<group>"; };
+		40388E5C205672F700346131 /* VIDNetListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDNetListViewController.h; sourceTree = "<group>"; };
+		40388E5D205672F700346131 /* VIDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDTableViewController.h; sourceTree = "<group>"; };
+		40388E5E205672F700346131 /* VIDLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDLocalViewController.m; sourceTree = "<group>"; };
+		40388E5F205672F700346131 /* VIDMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDMoviePlayerViewController.m; sourceTree = "<group>"; };
+		40388E60205672F700346131 /* VIDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDCollectionViewController.h; sourceTree = "<group>"; };
+		40388E62205672F700346131 /* ZFVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoModel.h; sourceTree = "<group>"; };
+		40388E63205672F700346131 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
+		40388E64205672F700346131 /* ZFVideoResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVideoResolution.m; sourceTree = "<group>"; };
+		40388E65205672F700346131 /* ZFVideoResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoResolution.h; sourceTree = "<group>"; };
+		40388E66205672F700346131 /* ZFVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVideoModel.m; sourceTree = "<group>"; };
+		40388E68205672F700346131 /* VIDTableViewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDTableViewVideoCell.m; sourceTree = "<group>"; };
+		40388E69205672F700346131 /* VIDVideoDownloadedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDVideoDownloadedCell.m; sourceTree = "<group>"; };
+		40388E6A205672F700346131 /* VIDVideoDownloadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDVideoDownloadingCell.h; sourceTree = "<group>"; };
+		40388E6B205672F700346131 /* VIDCollectionViewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDCollectionViewVideoCell.h; sourceTree = "<group>"; };
+		40388E6C205672F700346131 /* VIDTableViewVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIDTableViewVideoCell.xib; sourceTree = "<group>"; };
+		40388E6D205672F700346131 /* VIDTableViewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDTableViewVideoCell.h; sourceTree = "<group>"; };
+		40388E6E205672F700346131 /* VIDVideoDownloadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIDVideoDownloadingCell.xib; sourceTree = "<group>"; };
+		40388E6F205672F700346131 /* VIDVideoDownloadedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIDVideoDownloadedCell.xib; sourceTree = "<group>"; };
+		40388E70205672F700346131 /* VIDCollectionViewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDCollectionViewVideoCell.m; sourceTree = "<group>"; };
+		40388E71205672F700346131 /* VIDCollectionViewVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIDCollectionViewVideoCell.xib; sourceTree = "<group>"; };
+		40388E72205672F700346131 /* VIDVideoDownloadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDVideoDownloadingCell.m; sourceTree = "<group>"; };
+		40388E73205672F700346131 /* VIDVideoDownloadedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDVideoDownloadedCell.h; sourceTree = "<group>"; };
 		40F39C6420511AEE001209BA /* iOSProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F39C6720511AEE001209BA /* ZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAppDelegate.h; sourceTree = "<group>"; };
 		40F39C6820511AEE001209BA /* ZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAppDelegate.m; sourceTree = "<group>"; };
@@ -419,6 +612,10 @@
 		402545B220521ED100926F18 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				40388E53205672F700346131 /* 视频播放 */,
+				40388DFA205672D400346131 /* Preview1 */,
+				40388DD4205672D300346131 /* Preview2 */,
+				40388DB2205672D300346131 /* Preview3 */,
 				40388D6620560C4F00346131 /* 绘图 */,
 				40388D2020560C2700346131 /* 核心动画 */,
 				40388C9420560BC400346131 /* 基础理论 */,
@@ -435,6 +632,8 @@
 			children = (
 				402545BF2052713E00926F18 /* LMJHomeViewController.h */,
 				402545C32052713F00926F18 /* LMJHomeViewController.m */,
+				40388DAF205672A900346131 /* LMJNewViewController.h */,
+				40388DB0205672AA00346131 /* LMJNewViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -745,6 +944,246 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		40388DB2205672D300346131 /* Preview3 */ = {
+			isa = PBXGroup;
+			children = (
+				40388DB3205672D300346131 /* LMJFingerCheckViewController.h */,
+				40388DB4205672D300346131 /* LMJDragTableViewController.m */,
+				40388DB5205672D300346131 /* LMJTableSDWebImageViewController.m */,
+				40388DB6205672D300346131 /* LMJVFLLayoutViewController.m */,
+				40388DB7205672D300346131 /* LMJNavBarFadeViewController.h */,
+				40388DB8205672D300346131 /* LMJAutoLayoutViewController.h */,
+				40388DB9205672D300346131 /* LMJOfflineDownloadViewController.h */,
+				40388DBA205672D300346131 /* LMJCalendarViewController.m */,
+				40388DBB205672D300346131 /* Toos */,
+				40388DC4205672D300346131 /* LMJDragTableViewController.h */,
+				40388DC5205672D300346131 /* LMJFingerCheckViewController.m */,
+				40388DC6205672D300346131 /* LMJTableSDWebImageViewController.h */,
+				40388DC7205672D300346131 /* Model */,
+				40388DCA205672D300346131 /* View */,
+				40388DCF205672D300346131 /* LMJOfflineDownloadViewController.m */,
+				40388DD0205672D300346131 /* LMJAutoLayoutViewController.m */,
+				40388DD1205672D300346131 /* LMJNavBarFadeViewController.m */,
+				40388DD2205672D300346131 /* LMJVFLLayoutViewController.h */,
+				40388DD3205672D300346131 /* LMJCalendarViewController.h */,
+			);
+			path = Preview3;
+			sourceTree = "<group>";
+		};
+		40388DBB205672D300346131 /* Toos */ = {
+			isa = PBXGroup;
+			children = (
+				40388DBC205672D300346131 /* MJDownload */,
+			);
+			path = Toos;
+			sourceTree = "<group>";
+		};
+		40388DBC205672D300346131 /* MJDownload */ = {
+			isa = PBXGroup;
+			children = (
+				40388DBD205672D300346131 /* NSString+MJDownload.h */,
+				40388DBE205672D300346131 /* MJDownloadManager.m */,
+				40388DBF205672D300346131 /* MJDownloadConst.m */,
+				40388DC0205672D300346131 /* MJDownloadManager.h */,
+				40388DC1205672D300346131 /* MJDownload.h */,
+				40388DC2205672D300346131 /* NSString+MJDownload.m */,
+				40388DC3205672D300346131 /* MJDownloadConst.h */,
+			);
+			path = MJDownload;
+			sourceTree = "<group>";
+		};
+		40388DC7205672D300346131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40388DC8205672D300346131 /* LMJXGMVideo.h */,
+				40388DC9205672D300346131 /* LMJXGMVideo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40388DCA205672D300346131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40388DCB205672D300346131 /* LMJExpandImageView.h */,
+				40388DCC205672D300346131 /* LMJExpandHeader.m */,
+				40388DCD205672D300346131 /* LMJExpandImageView.m */,
+				40388DCE205672D300346131 /* LMJExpandHeader.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40388DD4205672D300346131 /* Preview2 */ = {
+			isa = PBXGroup;
+			children = (
+				40388DD5205672D300346131 /* LMJFillTableFormViewController.h */,
+				40388DD6205672D300346131 /* LMJH5_OCViewController.h */,
+				40388DD8205672D300346131 /* LMJListTimerCountDownViewController.h */,
+				40388DD9205672D300346131 /* LMJQRCodeViewController.m */,
+				40388DDA205672D300346131 /* LMJBaiduMapViewController.h */,
+				40388DDB205672D300346131 /* LMJMasonryViewController.h */,
+				40388DDC205672D300346131 /* LMJAlertViewsViewController.m */,
+				40388DDF205672D300346131 /* LMJH5_OCViewController.m */,
+				40388DE0205672D300346131 /* LMJFillTableFormViewController.m */,
+				40388DE1205672D300346131 /* LMJQRCodeViewController.h */,
+				40388DE2205672D300346131 /* model */,
+				40388DEC205672D300346131 /* LMJListTimerCountDownViewController.m */,
+				40388DED205672D300346131 /* view */,
+				40388DF6205672D400346131 /* LMJBaiduMapViewController.m */,
+				40388DF8205672D400346131 /* LMJAlertViewsViewController.h */,
+				40388DF9205672D400346131 /* LMJMasonryViewController.m */,
+			);
+			path = Preview2;
+			sourceTree = "<group>";
+		};
+		40388DE2205672D300346131 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				40388DE3205672D300346131 /* LMJOCJSHelper.h */,
+				40388DE4205672D300346131 /* LMJBaiduPointAnnotation.m */,
+				40388DE5205672D300346131 /* LMJCoordinateModel.m */,
+				40388DE6205672D300346131 /* LMJCountDownModel.m */,
+				40388DE7205672D300346131 /* LMJH5_OCViewController.html */,
+				40388DE8205672D300346131 /* LMJBaiduPointAnnotation.h */,
+				40388DE9205672D300346131 /* LMJOCJSHelper.m */,
+				40388DEA205672D300346131 /* LMJCountDownModel.h */,
+				40388DEB205672D300346131 /* LMJCoordinateModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		40388DED205672D300346131 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				40388DEE205672D300346131 /* LMJAnnotationCustomPopView.h */,
+				40388DEF205672D400346131 /* LMJCountDownCell.m */,
+				40388DF0205672D400346131 /* LMJUpLoadImageCell.h */,
+				40388DF1205672D400346131 /* LMJAnnotationCustomPopView.m */,
+				40388DF2205672D400346131 /* LMJAnnotationCustomPopView.xib */,
+				40388DF3205672D400346131 /* LMJUpLoadImageCell.xib */,
+				40388DF4205672D400346131 /* LMJCountDownCell.h */,
+				40388DF5205672D400346131 /* LMJUpLoadImageCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		40388DFA205672D400346131 /* Preview1 */ = {
+			isa = PBXGroup;
+			children = (
+				40388DFB205672D400346131 /* LMJYYTextViewController.m */,
+				40388DFC205672D400346131 /* LMJListExpandHideViewController.h */,
+				40388DFD205672D400346131 /* LMJVerticalLayoutViewController.h */,
+				40388DFE205672D400346131 /* LMJHorizontalLayoutViewController.m */,
+				40388DFF205672D400346131 /* LMJNoNavBarViewController.m */,
+				40388E00205672D400346131 /* LMJDownLoadFileViewController.h */,
+				40388E01205672D400346131 /* LMJAnimationNavBarViewController.m */,
+				40388E02205672D400346131 /* LMJKeyboardHandleViewController.m */,
+				40388E03205672D400346131 /* LMJBlankPageViewController.h */,
+				40388E04205672D400346131 /* LMJElementsCollectionViewController.h */,
+				40388E05205672D400346131 /* LMJAddressPickerViewController.h */,
+				40388E06205672D400346131 /* LMJAdaptFontViewController.h */,
+				40388E07205672D400346131 /* LMJListExpandHideViewController.m */,
+				40388E08205672D400346131 /* LMJVerticalLayoutViewController.m */,
+				40388E09205672D400346131 /* LMJHorizontalLayoutViewController.h */,
+				40388E0A205672D400346131 /* LMJYYTextViewController.h */,
+				40388E0B205672D400346131 /* LMJNoNavBarViewController.h */,
+				40388E0C205672D400346131 /* Model */,
+				40388E14205672D400346131 /* View */,
+				40388E19205672D400346131 /* LMJAddressPickerViewController.m */,
+				40388E1A205672D400346131 /* LMJBlankPageViewController.m */,
+				40388E1B205672D400346131 /* LMJElementsCollectionViewController.m */,
+				40388E1C205672D400346131 /* LMJKeyboardHandleViewController.h */,
+				40388E1D205672D400346131 /* LMJAnimationNavBarViewController.h */,
+				40388E1E205672D400346131 /* LMJDownLoadFileViewController.m */,
+				40388E1F205672D400346131 /* LMJAdaptFontViewController.m */,
+			);
+			path = Preview1;
+			sourceTree = "<group>";
+		};
+		40388E0C205672D400346131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40388E0D205672D400346131 /* LMJTeam.h */,
+				40388E0E205672D400346131 /* LMJParagraph.h */,
+				40388E0F205672D400346131 /* LMJGroup.h */,
+				40388E10205672D400346131 /* team_dictionary.plist */,
+				40388E11205672D400346131 /* LMJTeam.m */,
+				40388E12205672D400346131 /* LMJGroup.m */,
+				40388E13205672D400346131 /* LMJParagraph.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40388E14205672D400346131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40388E15205672D400346131 /* LMJAdaptFontCell.m */,
+				40388E16205672D400346131 /* LMJListExpendHeaderView.h */,
+				40388E17205672D400346131 /* LMJAdaptFontCell.h */,
+				40388E18205672D400346131 /* LMJListExpendHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40388E53205672F700346131 /* 视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				40388E54205672F700346131 /* Controller */,
+				40388E61205672F700346131 /* Model */,
+				40388E67205672F700346131 /* View */,
+			);
+			path = "视频播放";
+			sourceTree = "<group>";
+		};
+		40388E54205672F700346131 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40388E55205672F700346131 /* VIDTabBarController.m */,
+				40388E56205672F700346131 /* VIDNetListViewController.m */,
+				40388E57205672F700346131 /* VIDTableViewController.m */,
+				40388E58205672F700346131 /* VIDCollectionViewController.m */,
+				40388E59205672F700346131 /* VIDMoviePlayerViewController.h */,
+				40388E5A205672F700346131 /* VIDLocalViewController.h */,
+				40388E5B205672F700346131 /* VIDTabBarController.h */,
+				40388E5C205672F700346131 /* VIDNetListViewController.h */,
+				40388E5D205672F700346131 /* VIDTableViewController.h */,
+				40388E5E205672F700346131 /* VIDLocalViewController.m */,
+				40388E5F205672F700346131 /* VIDMoviePlayerViewController.m */,
+				40388E60205672F700346131 /* VIDCollectionViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40388E61205672F700346131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40388E62205672F700346131 /* ZFVideoModel.h */,
+				40388E63205672F700346131 /* videoData.json */,
+				40388E64205672F700346131 /* ZFVideoResolution.m */,
+				40388E65205672F700346131 /* ZFVideoResolution.h */,
+				40388E66205672F700346131 /* ZFVideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40388E67205672F700346131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40388E68205672F700346131 /* VIDTableViewVideoCell.m */,
+				40388E69205672F700346131 /* VIDVideoDownloadedCell.m */,
+				40388E6A205672F700346131 /* VIDVideoDownloadingCell.h */,
+				40388E6B205672F700346131 /* VIDCollectionViewVideoCell.h */,
+				40388E6C205672F700346131 /* VIDTableViewVideoCell.xib */,
+				40388E6D205672F700346131 /* VIDTableViewVideoCell.h */,
+				40388E6E205672F700346131 /* VIDVideoDownloadingCell.xib */,
+				40388E6F205672F700346131 /* VIDVideoDownloadedCell.xib */,
+				40388E70205672F700346131 /* VIDCollectionViewVideoCell.m */,
+				40388E71205672F700346131 /* VIDCollectionViewVideoCell.xib */,
+				40388E72205672F700346131 /* VIDVideoDownloadingCell.m */,
+				40388E73205672F700346131 /* VIDVideoDownloadedCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		40F39C5B20511AEE001209BA = {
 			isa = PBXGroup;
 			children = (
@@ -1007,23 +1446,32 @@
 				40388DA220560C4F00346131 /* LMJPiesViewController.xib in Resources */,
 				40F39CCA205215CA001209BA /* intro_1.jpg in Resources */,
 				40388D6320560C2800346131 /* CATransition1.png in Resources */,
+				40388E3D205672D400346131 /* LMJUpLoadImageCell.xib in Resources */,
 				40388D6420560C2800346131 /* 小新.jpg in Resources */,
+				40388E81205672F700346131 /* VIDVideoDownloadedCell.xib in Resources */,
 				40388DA620560C4F00346131 /* LMJDotRemoveViewController.xib in Resources */,
 				40F39C7420511AEE001209BA /* LaunchScreen.storyboard in Resources */,
 				40388D6220560C2700346131 /* 钟表.png in Resources */,
+				40388E7A205672F700346131 /* videoData.json in Resources */,
 				40388D6020560C2700346131 /* CATransition3.png in Resources */,
 				40388D9F20560C4F00346131 /* LMJPicClipViewController.xib in Resources */,
+				40388E7F205672F700346131 /* VIDTableViewVideoCell.xib in Resources */,
+				40388E83205672F700346131 /* VIDCollectionViewVideoCell.xib in Resources */,
 				40F39CC9205215CA001209BA /* intro_0.jpg in Resources */,
 				40F39C7120511AEE001209BA /* Assets.xcassets in Resources */,
+				40388E37205672D400346131 /* LMJH5_OCViewController.html in Resources */,
+				40388E48205672D400346131 /* team_dictionary.plist in Resources */,
 				40F39C6F20511AEE001209BA /* Main.storyboard in Resources */,
 				40388D5220560C2700346131 /* LMJLZDHDTViewController.xib in Resources */,
 				40388D4D20560C2700346131 /* LMJZDTPViewController.xib in Resources */,
+				40388E80205672F700346131 /* VIDVideoDownloadingCell.xib in Resources */,
 				40388D6520560C2800346131 /* 雪花.png in Resources */,
 				40388D6120560C2700346131 /* CATransition2.png in Resources */,
 				40388D9A20560C4F00346131 /* LMJDrawProgressViewController.xib in Resources */,
 				40388D5120560C2700346131 /* LMJLZDHDTSViewController.xib in Resources */,
 				40F39CCB205215CA001209BA /* intro_2.jpg in Resources */,
 				40388D9E20560C4F00346131 /* LMJDrawBoardViewController.xib in Resources */,
+				40388E3C205672D400346131 /* LMJAnnotationCustomPopView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,10 +1562,14 @@
 			files = (
 				40388DAE20560C4F00346131 /* LMJBezierPathCP.m in Sources */,
 				40388CC820560BC400346131 /* LMJLiftCycleViewController.m in Sources */,
+				40388E75205672F700346131 /* VIDNetListViewController.m in Sources */,
+				40388E4E205672D400346131 /* LMJAddressPickerViewController.m in Sources */,
 				40F39CC4205215CA001209BA /* YYFPSLabel.m in Sources */,
 				40F39CD0205215CA001209BA /* UITextView+WZB.m in Sources */,
+				40388E2A205672D400346131 /* LMJExpandImageView.m in Sources */,
 				40388D9B20560C4F00346131 /* LMJXueHuaViewController.m in Sources */,
 				40388D5520560C2700346131 /* LMJCATransitionViewController.m in Sources */,
+				40388E28205672D400346131 /* LMJXGMVideo.m in Sources */,
 				40F39CC1205215CA001209BA /* LMJEasyBlankPageView.m in Sources */,
 				402546002052725A00926F18 /* LMJRefreshTableViewController.m in Sources */,
 				40F39CBB205215CA001209BA /* LMJBaseRequest.m in Sources */,
@@ -1125,51 +1577,80 @@
 				402545FE2052725A00926F18 /* LMJBaseViewController.m in Sources */,
 				40388DA820560C4F00346131 /* LMJClipImageViewController.m in Sources */,
 				402545FC2052725A00926F18 /* LMJNavigationBar.m in Sources */,
+				40388E32205672D400346131 /* LMJH5_OCViewController.m in Sources */,
 				40388D5020560C2700346131 /* LMJLZDHDTSViewController.m in Sources */,
 				40F39CCD205215CA001209BA /* MBProgressHUD+LMJ.m in Sources */,
 				40388DAD20560C4F00346131 /* LMJHandleView.m in Sources */,
 				40388CC620560BC400346131 /* WPFBaseView.m in Sources */,
 				40388CC120560BC400346131 /* WPFPushView.m in Sources */,
+				40388E3F205672D400346131 /* LMJBaiduMapViewController.m in Sources */,
 				40F39CCF205215CA001209BA /* NullSafe.m in Sources */,
+				40388E4D205672D400346131 /* LMJListExpendHeaderView.m in Sources */,
 				402546032052725A00926F18 /* LMJWebViewController.m in Sources */,
 				402546042052725A00926F18 /* LMJRefreshCollectionViewController.m in Sources */,
 				40388D9920560C4F00346131 /* LMJDrawStrPicsViewController.m in Sources */,
 				40388CD220560BC400346131 /* LMJUsertProtocol.m in Sources */,
 				402545FF2052725A00926F18 /* LMJRequestBaseViewController.m in Sources */,
+				40388E36205672D400346131 /* LMJCountDownModel.m in Sources */,
 				40F39CC2205215CA001209BA /* LMJUMengHelper.m in Sources */,
+				40388E3E205672D400346131 /* LMJUpLoadImageCell.m in Sources */,
+				40388E51205672D400346131 /* LMJDownLoadFileViewController.m in Sources */,
 				40F39C8020512C73001209BA /* CommonConst.m in Sources */,
 				40388CCB20560BC400346131 /* LMJRunTimeViewController.m in Sources */,
 				40F39C6C20511AEE001209BA /* ViewController.m in Sources */,
 				40388D5B20560C2700346131 /* LMJCAKeyFrameAnimationViewController.m in Sources */,
+				40388E2C205672D400346131 /* LMJAutoLayoutViewController.m in Sources */,
+				40388E20205672D400346131 /* LMJDragTableViewController.m in Sources */,
+				40388E74205672F700346131 /* VIDTabBarController.m in Sources */,
 				402545FA2052725A00926F18 /* LMJVerticalFlowLayout.m in Sources */,
 				40388DA720560C4F00346131 /* LMJPicClipViewController.m in Sources */,
 				40F39CBD205215CA001209BA /* LMJRequestManager.m in Sources */,
 				40388DAA20560C4F00346131 /* LMJDotRemoveViewController.m in Sources */,
 				40388CCF20560BC400346131 /* LMJNSThreadViewController.m in Sources */,
+				40388E49205672D400346131 /* LMJTeam.m in Sources */,
+				40388E22205672D400346131 /* LMJVFLLayoutViewController.m in Sources */,
 				40F39CBC205215CA001209BA /* LMJBaseResponse.m in Sources */,
 				40388D9620560C4F00346131 /* LMJScreenShotViewController.m in Sources */,
 				40388D9D20560C4F00346131 /* LMJDrawProgressViewController.m in Sources */,
 				40388D5C20560C2700346131 /* LMJCABasicAnimationViewController.m in Sources */,
 				40F39CC8205215CA001209BA /* LMJIntroductoryPagesView.m in Sources */,
+				40388E40205672D400346131 /* LMJMasonryViewController.m in Sources */,
 				40F39CC7205215CA001209BA /* LMJIntroductoryPagesHelper.m in Sources */,
+				40388E4C205672D400346131 /* LMJAdaptFontCell.m in Sources */,
+				40388E82205672F700346131 /* VIDCollectionViewVideoCell.m in Sources */,
 				40388CD620560BC400346131 /* LMJRunTimeTest+LMJWork.m in Sources */,
 				40388CD320560BC400346131 /* LMJRunTimeTest+LMJMethod.m in Sources */,
+				40388E2D205672D400346131 /* LMJNavBarFadeViewController.m in Sources */,
+				40388E52205672D400346131 /* LMJAdaptFontViewController.m in Sources */,
+				40388E42205672D400346131 /* LMJHorizontalLayoutViewController.m in Sources */,
 				40F39CD4205215CA001209BA /* UIColor+Random.m in Sources */,
+				40388E23205672D400346131 /* LMJCalendarViewController.m in Sources */,
+				40388E46205672D400346131 /* LMJListExpandHideViewController.m in Sources */,
 				40388D9820560C4F00346131 /* LMJZhusViewController.m in Sources */,
+				40388E47205672D400346131 /* LMJVerticalLayoutViewController.m in Sources */,
 				40F39C7720511AEF001209BA /* main.m in Sources */,
 				40388CC520560BC400346131 /* WPFCollisionView.m in Sources */,
+				40388E50205672D400346131 /* LMJElementsCollectionViewController.m in Sources */,
 				40388CCE20560BC400346131 /* XLMJThread.m in Sources */,
 				402545F92052725A00926F18 /* LMJHorizontalFlowLayout.m in Sources */,
+				40388E43205672D400346131 /* LMJNoNavBarViewController.m in Sources */,
+				40388DB1205672AA00346131 /* LMJNewViewController.m in Sources */,
 				40F39CD3205215CA001209BA /* UIButton+LMJ.m in Sources */,
 				40388CCD20560BC400346131 /* LMJProtocolViewController.m in Sources */,
+				40388E4F205672D400346131 /* LMJBlankPageViewController.m in Sources */,
+				40388E45205672D400346131 /* LMJKeyboardHandleViewController.m in Sources */,
 				40388CD120560BC400346131 /* LMJOraceDataBase.m in Sources */,
+				40388E21205672D400346131 /* LMJTableSDWebImageViewController.m in Sources */,
 				40388D5920560C2700346131 /* LMJCAAnimationGroupViewController.m in Sources */,
+				40388E3A205672D400346131 /* LMJCountDownCell.m in Sources */,
 				40F39C6920511AEE001209BA /* ZPAppDelegate.m in Sources */,
 				40388D9720560C4F00346131 /* LMJDrawLineViewController.m in Sources */,
 				40388D4F20560C2700346131 /* LMJZDTPViewController.m in Sources */,
 				40F39CD1205215CA001209BA /* UIView+GestureCallback.m in Sources */,
 				40388DAB20560C4F00346131 /* LMJDrawRectViewController.m in Sources */,
+				40388E7B205672F700346131 /* ZFVideoResolution.m in Sources */,
 				4025460B2052725A00926F18 /* LMJWordArrowItem.m in Sources */,
+				40388E7C205672F700346131 /* ZFVideoModel.m in Sources */,
 				40388CC020560BC400346131 /* LMJDynamicViewController.m in Sources */,
 				40388D5320560C2700346131 /* LMJDYViewController.m in Sources */,
 				40388CC720560BC400346131 /* LMJBlockLoopViewController.m in Sources */,
@@ -1177,45 +1658,67 @@
 				402545FD2052725A00926F18 /* LMJSettingCell.m in Sources */,
 				402546082052725A00926F18 /* LMJNavigationController.m in Sources */,
 				402546022052725A00926F18 /* LMJTextViewController.m in Sources */,
+				40388E27205672D400346131 /* LMJFingerCheckViewController.m in Sources */,
+				40388E7D205672F700346131 /* VIDTableViewVideoCell.m in Sources */,
+				40388E38205672D400346131 /* LMJOCJSHelper.m in Sources */,
 				40388CD520560BC400346131 /* LMJBlockLoopOperation.m in Sources */,
 				402545B520521F2200926F18 /* LMJTabBarController.m in Sources */,
 				40F39CC3205215CA001209BA /* UIImageView+FitNet.m in Sources */,
 				40388CBF20560BC400346131 /* WPFDemoController.m in Sources */,
+				40388E24205672D400346131 /* MJDownloadManager.m in Sources */,
 				40388CCC20560BC400346131 /* LMJChildBlockViewController.m in Sources */,
+				40388E39205672D400346131 /* LMJListTimerCountDownViewController.m in Sources */,
 				40F39CCE205215CA001209BA /* NSDecimalNumber+Addtion.m in Sources */,
 				40388D4E20560C2700346131 /* LMJYinLZDTViewController.m in Sources */,
 				40388CD020560BC400346131 /* LMJModalBlockViewController.m in Sources */,
 				40388D5D20560C2700346131 /* LMJHDZSQViewController.m in Sources */,
+				40388E79205672F700346131 /* VIDMoviePlayerViewController.m in Sources */,
+				40388E41205672D400346131 /* LMJYYTextViewController.m in Sources */,
 				40388D9C20560C4F00346131 /* LMJDrawBoardViewController.m in Sources */,
 				402545C82052713F00926F18 /* LMJHomeViewController.m in Sources */,
 				40388CC320560BC400346131 /* WPFSpringView.m in Sources */,
 				40388DA420560C4F00346131 /* LMJShangXiaWenZhanViewController.m in Sources */,
 				402546062052725A00926F18 /* LMJCollectionViewController.m in Sources */,
+				40388E33205672D400346131 /* LMJFillTableFormViewController.m in Sources */,
 				402545F72052725A00926F18 /* LMJElementsFlowLayout.m in Sources */,
 				40388D5A20560C2700346131 /* LMJCAClockViewController.m in Sources */,
+				40388E2B205672D400346131 /* LMJOfflineDownloadViewController.m in Sources */,
 				40F39CD5205215CA001209BA /* UIView+LMJNjHuFrame.m in Sources */,
 				40388CD820560BC400346131 /* LMJNSOperationViewController.m in Sources */,
+				40388E34205672D400346131 /* LMJBaiduPointAnnotation.m in Sources */,
 				40F39CC6205215CA001209BA /* AdvertiseView.m in Sources */,
 				40388CD720560BC400346131 /* UIButton+LMJBlock.m in Sources */,
 				40F39CBE205215CA001209BA /* CalendarReminderManager.m in Sources */,
+				40388E7E205672F700346131 /* VIDVideoDownloadedCell.m in Sources */,
+				40388E4B205672D400346131 /* LMJParagraph.m in Sources */,
 				40388DA120560C4F00346131 /* LMJFingerLockViewController.m in Sources */,
 				402546072052725A00926F18 /* LMJTableViewController.m in Sources */,
+				40388E4A205672D400346131 /* LMJGroup.m in Sources */,
 				40388DA320560C4F00346131 /* LMJJuZhenCaoZuoViewController.m in Sources */,
 				40388D4C20560C2700346131 /* LMJCoreAnimationViewController.m in Sources */,
 				402545FB2052725A00926F18 /* LMJAutoRefreshFooter.m in Sources */,
 				40388DA920560C4F00346131 /* LMJPicWordsViewController.m in Sources */,
 				402546092052725A00926F18 /* LMJItemSection.m in Sources */,
 				40388CC420560BC400346131 /* WPFAttachmentView.m in Sources */,
+				40388E78205672F700346131 /* VIDLocalViewController.m in Sources */,
 				40F39CBF205215CA001209BA /* GVUserDefaults+LMJ.m in Sources */,
+				40388E30205672D400346131 /* LMJAlertViewsViewController.m in Sources */,
 				40F39CD2205215CA001209BA /* UIViewController+DDPopUpViewController.m in Sources */,
 				40F39CC0205215CA001209BA /* JXTAlertController.m in Sources */,
 				4025460A2052725A00926F18 /* LMJWordItem.m in Sources */,
+				40388E2F205672D400346131 /* LMJQRCodeViewController.m in Sources */,
+				40388E84205672F700346131 /* VIDVideoDownloadingCell.m in Sources */,
 				402545F82052725A00926F18 /* LMJNormalRefreshHeader.m in Sources */,
+				40388E77205672F700346131 /* VIDCollectionViewController.m in Sources */,
 				40388D5820560C2700346131 /* LMJCALayerBaseViewController.m in Sources */,
+				40388E35205672D400346131 /* LMJCoordinateModel.m in Sources */,
+				40388E26205672D400346131 /* NSString+MJDownload.m in Sources */,
 				40388CD420560BC400346131 /* LMJRunTimeTest.m in Sources */,
 				40388DAC20560C4F00346131 /* LMJDrawingView.m in Sources */,
+				40388E3B205672D400346131 /* LMJAnnotationCustomPopView.m in Sources */,
 				40388D5E20560C2700346131 /* LMJLZDHDTViewController.m in Sources */,
 				402546012052725A00926F18 /* LMJStaticTableViewController.m in Sources */,
+				40388E44205672D400346131 /* LMJAnimationNavBarViewController.m in Sources */,
 				40388DA020560C4F00346131 /* LMJDrawBaseViewController.m in Sources */,
 				40388CC220560BC400346131 /* WPFSnapView.m in Sources */,
 				40388CD920560BC400346131 /* LMJLockViewController.m in Sources */,
@@ -1223,7 +1726,10 @@
 				40388D5420560C2700346131 /* LMJCALayerViewController.m in Sources */,
 				40388DA520560C4F00346131 /* LMJPiesViewController.m in Sources */,
 				402546052052725A00926F18 /* LMJNavUIBaseViewController.m in Sources */,
+				40388E29205672D400346131 /* LMJExpandHeader.m in Sources */,
+				40388E25205672D400346131 /* MJDownloadConst.m in Sources */,
 				40388CCA20560BC400346131 /* LMJGCDViewController.m in Sources */,
+				40388E76205672F700346131 /* VIDTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

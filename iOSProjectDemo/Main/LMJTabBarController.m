@@ -8,6 +8,7 @@
 
 #import "LMJTabBarController.h"
 #import "LMJNavigationController.h"
+#import "LMJNewViewController.h"
 #import "ViewController.h"
 
 #import "LMJHomeViewController.h"
@@ -33,7 +34,7 @@
 {
     LMJNavigationController *one = [[LMJNavigationController alloc] initWithRootViewController:[[LMJHomeViewController alloc] init]];
     
-    LMJNavigationController *two = [[LMJNavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    LMJNavigationController *two = [[LMJNavigationController alloc] initWithRootViewController:[[LMJNewViewController alloc] init]];
     
     LMJNavigationController *three = [[LMJNavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     

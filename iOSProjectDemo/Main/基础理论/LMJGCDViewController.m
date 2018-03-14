@@ -255,6 +255,7 @@ int count = 0;
     
 }
 
+#pragma mark---------------并发队列 + 同步执行------------------
 - (void)syncConCurrent
 {
     NSLog(@"syncConcurrent---begin");
@@ -295,6 +296,7 @@ int count = 0;
         NSLog(@"syncConcurrent---end");
 }
 
+#pragma mark---------------并发队列 + 异步执行------------------
 - (void)asyncConcurrent
 {
     NSLog(@"asyncConcurrent---begin");
@@ -339,7 +341,7 @@ int count = 0;
 
 
 
-// 串行队列 同步执行
+#pragma mark----------------串行队列 + 同步执行------------------
 - (void)syncSerial
 {
     NSLog(@"syncSerial---begin");
@@ -381,7 +383,7 @@ int count = 0;
     
 }
 
-// 串行队列 异步执行
+#pragma mark-------------
 - (void)asyncSerial
 {
     
