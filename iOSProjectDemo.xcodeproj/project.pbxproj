@@ -175,6 +175,36 @@
 		40388E82205672F700346131 /* VIDCollectionViewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E70205672F700346131 /* VIDCollectionViewVideoCell.m */; };
 		40388E83205672F700346131 /* VIDCollectionViewVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40388E71205672F700346131 /* VIDCollectionViewVideoCell.xib */; };
 		40388E84205672F700346131 /* VIDVideoDownloadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388E72205672F700346131 /* VIDVideoDownloadingCell.m */; };
+		408F4D41205A3E8100BC2D1F /* LMJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D40205A3E8000BC2D1F /* LMJMessageViewController.m */; };
+		408F4D81205A3EC300BC2D1F /* SINStatusListDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D44205A3EC300BC2D1F /* SINStatusListDAL.m */; };
+		408F4D82205A3EC300BC2D1F /* SINUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D45205A3EC300BC2D1F /* SINUserManager.m */; };
+		408F4D83205A3EC300BC2D1F /* SINSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D47205A3EC300BC2D1F /* SINSQLiteManager.m */; };
+		408F4D84205A3EC300BC2D1F /* SINHomeCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D4D205A3EC300BC2D1F /* SINHomeCategoryViewController.m */; };
+		408F4D85205A3EC300BC2D1F /* SINDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D4F205A3EC300BC2D1F /* SINDiscoveryViewController.m */; };
+		408F4D86205A3EC300BC2D1F /* SINProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D50205A3EC300BC2D1F /* SINProfileViewController.m */; };
+		408F4D87205A3EC300BC2D1F /* SINHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D54205A3EC300BC2D1F /* SINHomeViewController.m */; };
+		408F4D88205A3EC300BC2D1F /* SINPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D56205A3EC300BC2D1F /* SINPublishViewController.m */; };
+		408F4D89205A3EC300BC2D1F /* SINTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D57205A3EC300BC2D1F /* SINTabBarController.m */; };
+		408F4D8A205A3EC300BC2D1F /* SINMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D5A205A3EC300BC2D1F /* SINMessageViewController.m */; };
+		408F4D8B205A3EC300BC2D1F /* SINBroswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D5C205A3EC300BC2D1F /* SINBroswerViewController.m */; };
+		408F4D8C205A3EC300BC2D1F /* SINBroswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D5D205A3EC300BC2D1F /* SINBroswerCell.m */; };
+		408F4D8D205A3EC300BC2D1F /* SINBroswerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D5E205A3EC300BC2D1F /* SINBroswerAnimator.m */; };
+		408F4D8E205A3EC300BC2D1F /* SINStatusViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D63205A3EC300BC2D1F /* SINStatusViewModel.m */; };
+		408F4D8F205A3EC300BC2D1F /* SINStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D64205A3EC300BC2D1F /* SINStatus.m */; };
+		408F4D90205A3EC300BC2D1F /* SINDictURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D66205A3EC300BC2D1F /* SINDictURL.m */; };
+		408F4D91205A3EC400BC2D1F /* SINUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D6A205A3EC300BC2D1F /* SINUser.m */; };
+		408F4D92205A3EC400BC2D1F /* SINStatusToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D6C205A3EC300BC2D1F /* SINStatusToolBarView.m */; };
+		408F4D93205A3EC400BC2D1F /* SINStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D6D205A3EC300BC2D1F /* SINStatusCell.m */; };
+		408F4D94205A3EC400BC2D1F /* SINPublishToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 408F4D6E205A3EC300BC2D1F /* SINPublishToolBar.xib */; };
+		408F4D95205A3EC400BC2D1F /* SINUnLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D6F205A3EC300BC2D1F /* SINUnLoginRegisterView.m */; };
+		408F4D96205A3EC400BC2D1F /* SINPublishToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D70205A3EC300BC2D1F /* SINPublishToolBar.m */; };
+		408F4D97205A3EC400BC2D1F /* SINStatusPicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D73205A3EC300BC2D1F /* SINStatusPicsView.m */; };
+		408F4D98205A3EC400BC2D1F /* SINStatusToolBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 408F4D74205A3EC300BC2D1F /* SINStatusToolBarView.xib */; };
+		408F4D99205A3EC400BC2D1F /* SINTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D76205A3EC300BC2D1F /* SINTabBar.m */; };
+		408F4D9A205A3EC400BC2D1F /* SINStatusRetweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D7B205A3EC300BC2D1F /* SINStatusRetweetView.m */; };
+		408F4D9B205A3EC400BC2D1F /* SINPostStatusService.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D7D205A3EC300BC2D1F /* SINPostStatusService.m */; };
+		408F4D9C205A3EC400BC2D1F /* SINStatusListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 408F4D7F205A3EC300BC2D1F /* SINStatusListService.m */; };
+		408F4D9E205A402D00BC2D1F /* Sina.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F4D9D205A402C00BC2D1F /* Sina.xcassets */; };
 		40F39C6920511AEE001209BA /* ZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C6820511AEE001209BA /* ZPAppDelegate.m */; };
 		40F39C6C20511AEE001209BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F39C6B20511AEE001209BA /* ViewController.m */; };
 		40F39C6F20511AEE001209BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F39C6D20511AEE001209BA /* Main.storyboard */; };
@@ -528,6 +558,64 @@
 		40388E71205672F700346131 /* VIDCollectionViewVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIDCollectionViewVideoCell.xib; sourceTree = "<group>"; };
 		40388E72205672F700346131 /* VIDVideoDownloadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDVideoDownloadingCell.m; sourceTree = "<group>"; };
 		40388E73205672F700346131 /* VIDVideoDownloadedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDVideoDownloadedCell.h; sourceTree = "<group>"; };
+		408F4D3F205A3E8000BC2D1F /* LMJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJMessageViewController.h; sourceTree = "<group>"; };
+		408F4D40205A3E8000BC2D1F /* LMJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJMessageViewController.m; sourceTree = "<group>"; };
+		408F4D44205A3EC300BC2D1F /* SINStatusListDAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatusListDAL.m; sourceTree = "<group>"; };
+		408F4D45205A3EC300BC2D1F /* SINUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINUserManager.m; sourceTree = "<group>"; };
+		408F4D46205A3EC300BC2D1F /* SINSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINSQLiteManager.h; sourceTree = "<group>"; };
+		408F4D47205A3EC300BC2D1F /* SINSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINSQLiteManager.m; sourceTree = "<group>"; };
+		408F4D48205A3EC300BC2D1F /* SINUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINUserManager.h; sourceTree = "<group>"; };
+		408F4D49205A3EC300BC2D1F /* SINStatusListDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatusListDAL.h; sourceTree = "<group>"; };
+		408F4D4A205A3EC300BC2D1F /* SIN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIN.h; sourceTree = "<group>"; };
+		408F4D4C205A3EC300BC2D1F /* SINHomeCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINHomeCategoryViewController.h; sourceTree = "<group>"; };
+		408F4D4D205A3EC300BC2D1F /* SINHomeCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINHomeCategoryViewController.m; sourceTree = "<group>"; };
+		408F4D4F205A3EC300BC2D1F /* SINDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINDiscoveryViewController.m; sourceTree = "<group>"; };
+		408F4D50205A3EC300BC2D1F /* SINProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINProfileViewController.m; sourceTree = "<group>"; };
+		408F4D51205A3EC300BC2D1F /* SINTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINTabBarController.h; sourceTree = "<group>"; };
+		408F4D52205A3EC300BC2D1F /* SINPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINPublishViewController.h; sourceTree = "<group>"; };
+		408F4D53205A3EC300BC2D1F /* SINMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINMessageViewController.h; sourceTree = "<group>"; };
+		408F4D54205A3EC300BC2D1F /* SINHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINHomeViewController.m; sourceTree = "<group>"; };
+		408F4D55205A3EC300BC2D1F /* SINDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINDiscoveryViewController.h; sourceTree = "<group>"; };
+		408F4D56205A3EC300BC2D1F /* SINPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINPublishViewController.m; sourceTree = "<group>"; };
+		408F4D57205A3EC300BC2D1F /* SINTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINTabBarController.m; sourceTree = "<group>"; };
+		408F4D58205A3EC300BC2D1F /* SINProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINProfileViewController.h; sourceTree = "<group>"; };
+		408F4D59205A3EC300BC2D1F /* SINHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINHomeViewController.h; sourceTree = "<group>"; };
+		408F4D5A205A3EC300BC2D1F /* SINMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINMessageViewController.m; sourceTree = "<group>"; };
+		408F4D5C205A3EC300BC2D1F /* SINBroswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINBroswerViewController.m; sourceTree = "<group>"; };
+		408F4D5D205A3EC300BC2D1F /* SINBroswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINBroswerCell.m; sourceTree = "<group>"; };
+		408F4D5E205A3EC300BC2D1F /* SINBroswerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINBroswerAnimator.m; sourceTree = "<group>"; };
+		408F4D5F205A3EC300BC2D1F /* SINBroswerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINBroswerAnimator.h; sourceTree = "<group>"; };
+		408F4D60205A3EC300BC2D1F /* SINBroswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINBroswerCell.h; sourceTree = "<group>"; };
+		408F4D61205A3EC300BC2D1F /* SINBroswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINBroswerViewController.h; sourceTree = "<group>"; };
+		408F4D63205A3EC300BC2D1F /* SINStatusViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatusViewModel.m; sourceTree = "<group>"; };
+		408F4D64205A3EC300BC2D1F /* SINStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatus.m; sourceTree = "<group>"; };
+		408F4D65205A3EC300BC2D1F /* SINUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINUser.h; sourceTree = "<group>"; };
+		408F4D66205A3EC300BC2D1F /* SINDictURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINDictURL.m; sourceTree = "<group>"; };
+		408F4D67205A3EC300BC2D1F /* SINStatusViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatusViewModel.h; sourceTree = "<group>"; };
+		408F4D68205A3EC300BC2D1F /* SINStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatus.h; sourceTree = "<group>"; };
+		408F4D69205A3EC300BC2D1F /* SINDictURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINDictURL.h; sourceTree = "<group>"; };
+		408F4D6A205A3EC300BC2D1F /* SINUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINUser.m; sourceTree = "<group>"; };
+		408F4D6C205A3EC300BC2D1F /* SINStatusToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatusToolBarView.m; sourceTree = "<group>"; };
+		408F4D6D205A3EC300BC2D1F /* SINStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatusCell.m; sourceTree = "<group>"; };
+		408F4D6E205A3EC300BC2D1F /* SINPublishToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SINPublishToolBar.xib; sourceTree = "<group>"; };
+		408F4D6F205A3EC300BC2D1F /* SINUnLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINUnLoginRegisterView.m; sourceTree = "<group>"; };
+		408F4D70205A3EC300BC2D1F /* SINPublishToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINPublishToolBar.m; sourceTree = "<group>"; };
+		408F4D71205A3EC300BC2D1F /* SINTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINTabBar.h; sourceTree = "<group>"; };
+		408F4D72205A3EC300BC2D1F /* SINStatusRetweetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatusRetweetView.h; sourceTree = "<group>"; };
+		408F4D73205A3EC300BC2D1F /* SINStatusPicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatusPicsView.m; sourceTree = "<group>"; };
+		408F4D74205A3EC300BC2D1F /* SINStatusToolBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SINStatusToolBarView.xib; sourceTree = "<group>"; };
+		408F4D75205A3EC300BC2D1F /* SINStatusToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatusToolBarView.h; sourceTree = "<group>"; };
+		408F4D76205A3EC300BC2D1F /* SINTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINTabBar.m; sourceTree = "<group>"; };
+		408F4D77205A3EC300BC2D1F /* SINPublishToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINPublishToolBar.h; sourceTree = "<group>"; };
+		408F4D78205A3EC300BC2D1F /* SINUnLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINUnLoginRegisterView.h; sourceTree = "<group>"; };
+		408F4D79205A3EC300BC2D1F /* SINStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatusCell.h; sourceTree = "<group>"; };
+		408F4D7A205A3EC300BC2D1F /* SINStatusPicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatusPicsView.h; sourceTree = "<group>"; };
+		408F4D7B205A3EC300BC2D1F /* SINStatusRetweetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatusRetweetView.m; sourceTree = "<group>"; };
+		408F4D7D205A3EC300BC2D1F /* SINPostStatusService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINPostStatusService.m; sourceTree = "<group>"; };
+		408F4D7E205A3EC300BC2D1F /* SINStatusListService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINStatusListService.h; sourceTree = "<group>"; };
+		408F4D7F205A3EC300BC2D1F /* SINStatusListService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINStatusListService.m; sourceTree = "<group>"; };
+		408F4D80205A3EC300BC2D1F /* SINPostStatusService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINPostStatusService.h; sourceTree = "<group>"; };
+		408F4D9D205A402C00BC2D1F /* Sina.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sina.xcassets; sourceTree = "<group>"; };
 		40F39C6420511AEE001209BA /* iOSProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F39C6720511AEE001209BA /* ZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAppDelegate.h; sourceTree = "<group>"; };
 		40F39C6820511AEE001209BA /* ZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAppDelegate.m; sourceTree = "<group>"; };
@@ -612,6 +700,7 @@
 		402545B220521ED100926F18 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				408F4D42205A3EC300BC2D1F /* 新浪微博 */,
 				40388E53205672F700346131 /* 视频播放 */,
 				40388DFA205672D400346131 /* Preview1 */,
 				40388DD4205672D300346131 /* Preview2 */,
@@ -634,6 +723,8 @@
 				402545C32052713F00926F18 /* LMJHomeViewController.m */,
 				40388DAF205672A900346131 /* LMJNewViewController.h */,
 				40388DB0205672AA00346131 /* LMJNewViewController.m */,
+				408F4D3F205A3E8000BC2D1F /* LMJMessageViewController.h */,
+				408F4D40205A3E8000BC2D1F /* LMJMessageViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -672,28 +763,28 @@
 		402545D92052725A00926F18 /* BaseControllers */ = {
 			isa = PBXGroup;
 			children = (
-				402545DA2052725A00926F18 /* LMJRefreshCollectionViewController.h */,
 				402545DB2052725A00926F18 /* LMJNavUIBaseViewController.h */,
-				402545DC2052725A00926F18 /* LMJCollectionViewController.h */,
-				402545DD2052725A00926F18 /* LMJBaseViewController.m */,
-				402545DE2052725A00926F18 /* LMJRequestBaseViewController.m */,
-				402545DF2052725A00926F18 /* LMJTableViewController.h */,
-				402545E02052725A00926F18 /* LMJRefreshTableViewController.m */,
-				402545E12052725A00926F18 /* LMJStaticTableViewController.m */,
-				402545E22052725A00926F18 /* LMJTextViewController.m */,
-				402545E32052725A00926F18 /* LMJWebViewController.m */,
-				402545E52052725A00926F18 /* LMJRefreshCollectionViewController.m */,
-				402545E62052725A00926F18 /* LMJBaseViewController.h */,
 				402545E72052725A00926F18 /* LMJNavUIBaseViewController.m */,
-				402545E82052725A00926F18 /* LMJCollectionViewController.m */,
-				402545E92052725A00926F18 /* LMJStaticTableViewController.h */,
-				402545EA2052725A00926F18 /* LMJRefreshTableViewController.h */,
-				402545EB2052725A00926F18 /* LMJTableViewController.m */,
+				402545EF2052725A00926F18 /* LMJTextViewController.h */,
+				402545E22052725A00926F18 /* LMJTextViewController.m */,
 				402545EC2052725A00926F18 /* LMJRequestBaseViewController.h */,
+				402545DE2052725A00926F18 /* LMJRequestBaseViewController.m */,
+				402545E62052725A00926F18 /* LMJBaseViewController.h */,
+				402545DD2052725A00926F18 /* LMJBaseViewController.m */,
+				402545DF2052725A00926F18 /* LMJTableViewController.h */,
+				402545EB2052725A00926F18 /* LMJTableViewController.m */,
+				402545EA2052725A00926F18 /* LMJRefreshTableViewController.h */,
+				402545E02052725A00926F18 /* LMJRefreshTableViewController.m */,
+				402545E92052725A00926F18 /* LMJStaticTableViewController.h */,
+				402545E12052725A00926F18 /* LMJStaticTableViewController.m */,
+				402545DC2052725A00926F18 /* LMJCollectionViewController.h */,
+				402545E82052725A00926F18 /* LMJCollectionViewController.m */,
+				402545DA2052725A00926F18 /* LMJRefreshCollectionViewController.h */,
+				402545E52052725A00926F18 /* LMJRefreshCollectionViewController.m */,
+				402545EE2052725A00926F18 /* LMJWebViewController.h */,
+				402545E32052725A00926F18 /* LMJWebViewController.m */,
 				402545E42052725A00926F18 /* LMJNavigationController.h */,
 				402545ED2052725A00926F18 /* LMJNavigationController.m */,
-				402545EE2052725A00926F18 /* LMJWebViewController.h */,
-				402545EF2052725A00926F18 /* LMJTextViewController.h */,
 			);
 			path = BaseControllers;
 			sourceTree = "<group>";
@@ -1184,6 +1275,124 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		408F4D42205A3EC300BC2D1F /* 新浪微博 */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D43205A3EC300BC2D1F /* Tools */,
+				408F4D4B205A3EC300BC2D1F /* Other */,
+				408F4D4E205A3EC300BC2D1F /* Controller */,
+				408F4D5B205A3EC300BC2D1F /* AnimatorBroswer */,
+				408F4D62205A3EC300BC2D1F /* Model */,
+				408F4D6B205A3EC300BC2D1F /* View */,
+				408F4D7C205A3EC300BC2D1F /* Service */,
+			);
+			path = "新浪微博";
+			sourceTree = "<group>";
+		};
+		408F4D43205A3EC300BC2D1F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D44205A3EC300BC2D1F /* SINStatusListDAL.m */,
+				408F4D45205A3EC300BC2D1F /* SINUserManager.m */,
+				408F4D46205A3EC300BC2D1F /* SINSQLiteManager.h */,
+				408F4D47205A3EC300BC2D1F /* SINSQLiteManager.m */,
+				408F4D48205A3EC300BC2D1F /* SINUserManager.h */,
+				408F4D49205A3EC300BC2D1F /* SINStatusListDAL.h */,
+				408F4D4A205A3EC300BC2D1F /* SIN.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		408F4D4B205A3EC300BC2D1F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D4C205A3EC300BC2D1F /* SINHomeCategoryViewController.h */,
+				408F4D4D205A3EC300BC2D1F /* SINHomeCategoryViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		408F4D4E205A3EC300BC2D1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D51205A3EC300BC2D1F /* SINTabBarController.h */,
+				408F4D57205A3EC300BC2D1F /* SINTabBarController.m */,
+				408F4D59205A3EC300BC2D1F /* SINHomeViewController.h */,
+				408F4D54205A3EC300BC2D1F /* SINHomeViewController.m */,
+				408F4D53205A3EC300BC2D1F /* SINMessageViewController.h */,
+				408F4D5A205A3EC300BC2D1F /* SINMessageViewController.m */,
+				408F4D56205A3EC300BC2D1F /* SINPublishViewController.m */,
+				408F4D52205A3EC300BC2D1F /* SINPublishViewController.h */,
+				408F4D55205A3EC300BC2D1F /* SINDiscoveryViewController.h */,
+				408F4D4F205A3EC300BC2D1F /* SINDiscoveryViewController.m */,
+				408F4D58205A3EC300BC2D1F /* SINProfileViewController.h */,
+				408F4D50205A3EC300BC2D1F /* SINProfileViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		408F4D5B205A3EC300BC2D1F /* AnimatorBroswer */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D5C205A3EC300BC2D1F /* SINBroswerViewController.m */,
+				408F4D5D205A3EC300BC2D1F /* SINBroswerCell.m */,
+				408F4D5E205A3EC300BC2D1F /* SINBroswerAnimator.m */,
+				408F4D5F205A3EC300BC2D1F /* SINBroswerAnimator.h */,
+				408F4D60205A3EC300BC2D1F /* SINBroswerCell.h */,
+				408F4D61205A3EC300BC2D1F /* SINBroswerViewController.h */,
+			);
+			path = AnimatorBroswer;
+			sourceTree = "<group>";
+		};
+		408F4D62205A3EC300BC2D1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D63205A3EC300BC2D1F /* SINStatusViewModel.m */,
+				408F4D64205A3EC300BC2D1F /* SINStatus.m */,
+				408F4D65205A3EC300BC2D1F /* SINUser.h */,
+				408F4D66205A3EC300BC2D1F /* SINDictURL.m */,
+				408F4D67205A3EC300BC2D1F /* SINStatusViewModel.h */,
+				408F4D68205A3EC300BC2D1F /* SINStatus.h */,
+				408F4D69205A3EC300BC2D1F /* SINDictURL.h */,
+				408F4D6A205A3EC300BC2D1F /* SINUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		408F4D6B205A3EC300BC2D1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D6C205A3EC300BC2D1F /* SINStatusToolBarView.m */,
+				408F4D6D205A3EC300BC2D1F /* SINStatusCell.m */,
+				408F4D6E205A3EC300BC2D1F /* SINPublishToolBar.xib */,
+				408F4D6F205A3EC300BC2D1F /* SINUnLoginRegisterView.m */,
+				408F4D70205A3EC300BC2D1F /* SINPublishToolBar.m */,
+				408F4D71205A3EC300BC2D1F /* SINTabBar.h */,
+				408F4D72205A3EC300BC2D1F /* SINStatusRetweetView.h */,
+				408F4D73205A3EC300BC2D1F /* SINStatusPicsView.m */,
+				408F4D74205A3EC300BC2D1F /* SINStatusToolBarView.xib */,
+				408F4D75205A3EC300BC2D1F /* SINStatusToolBarView.h */,
+				408F4D76205A3EC300BC2D1F /* SINTabBar.m */,
+				408F4D77205A3EC300BC2D1F /* SINPublishToolBar.h */,
+				408F4D78205A3EC300BC2D1F /* SINUnLoginRegisterView.h */,
+				408F4D79205A3EC300BC2D1F /* SINStatusCell.h */,
+				408F4D7A205A3EC300BC2D1F /* SINStatusPicsView.h */,
+				408F4D7B205A3EC300BC2D1F /* SINStatusRetweetView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		408F4D7C205A3EC300BC2D1F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				408F4D7D205A3EC300BC2D1F /* SINPostStatusService.m */,
+				408F4D7E205A3EC300BC2D1F /* SINStatusListService.h */,
+				408F4D7F205A3EC300BC2D1F /* SINStatusListService.m */,
+				408F4D80205A3EC300BC2D1F /* SINPostStatusService.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		40F39C5B20511AEE001209BA = {
 			isa = PBXGroup;
 			children = (
@@ -1216,6 +1425,7 @@
 				40F39C6B20511AEE001209BA /* ViewController.m */,
 				40F39C6D20511AEE001209BA /* Main.storyboard */,
 				40F39C7020511AEE001209BA /* Assets.xcassets */,
+				408F4D9D205A402C00BC2D1F /* Sina.xcassets */,
 				40F39C7220511AEE001209BA /* LaunchScreen.storyboard */,
 				40F39C7520511AEF001209BA /* Info.plist */,
 				40F39C7620511AEF001209BA /* main.m */,
@@ -1442,6 +1652,7 @@
 			files = (
 				40388D5F20560C2700346131 /* 卡哇伊.jpg in Resources */,
 				40F39CCC205215CA001209BA /* intro_3.jpg in Resources */,
+				408F4D9E205A402D00BC2D1F /* Sina.xcassets in Resources */,
 				40388D5620560C2700346131 /* LMJDYViewController.xib in Resources */,
 				40388DA220560C4F00346131 /* LMJPiesViewController.xib in Resources */,
 				40F39CCA205215CA001209BA /* intro_1.jpg in Resources */,
@@ -1461,10 +1672,12 @@
 				40F39C7120511AEE001209BA /* Assets.xcassets in Resources */,
 				40388E37205672D400346131 /* LMJH5_OCViewController.html in Resources */,
 				40388E48205672D400346131 /* team_dictionary.plist in Resources */,
+				408F4D98205A3EC400BC2D1F /* SINStatusToolBarView.xib in Resources */,
 				40F39C6F20511AEE001209BA /* Main.storyboard in Resources */,
 				40388D5220560C2700346131 /* LMJLZDHDTViewController.xib in Resources */,
 				40388D4D20560C2700346131 /* LMJZDTPViewController.xib in Resources */,
 				40388E80205672F700346131 /* VIDVideoDownloadingCell.xib in Resources */,
+				408F4D94205A3EC400BC2D1F /* SINPublishToolBar.xib in Resources */,
 				40388D6520560C2800346131 /* 雪花.png in Resources */,
 				40388D6120560C2700346131 /* CATransition2.png in Resources */,
 				40388D9A20560C4F00346131 /* LMJDrawProgressViewController.xib in Resources */,
@@ -1576,10 +1789,13 @@
 				40F39CC5205215CA001209BA /* AdvertiseHelper.m in Sources */,
 				402545FE2052725A00926F18 /* LMJBaseViewController.m in Sources */,
 				40388DA820560C4F00346131 /* LMJClipImageViewController.m in Sources */,
+				408F4D90205A3EC300BC2D1F /* SINDictURL.m in Sources */,
 				402545FC2052725A00926F18 /* LMJNavigationBar.m in Sources */,
+				408F4D97205A3EC400BC2D1F /* SINStatusPicsView.m in Sources */,
 				40388E32205672D400346131 /* LMJH5_OCViewController.m in Sources */,
 				40388D5020560C2700346131 /* LMJLZDHDTSViewController.m in Sources */,
 				40F39CCD205215CA001209BA /* MBProgressHUD+LMJ.m in Sources */,
+				408F4D99205A3EC400BC2D1F /* SINTabBar.m in Sources */,
 				40388DAD20560C4F00346131 /* LMJHandleView.m in Sources */,
 				40388CC620560BC400346131 /* WPFBaseView.m in Sources */,
 				40388CC120560BC400346131 /* WPFPushView.m in Sources */,
@@ -1587,6 +1803,7 @@
 				40F39CCF205215CA001209BA /* NullSafe.m in Sources */,
 				40388E4D205672D400346131 /* LMJListExpendHeaderView.m in Sources */,
 				402546032052725A00926F18 /* LMJWebViewController.m in Sources */,
+				408F4D84205A3EC300BC2D1F /* SINHomeCategoryViewController.m in Sources */,
 				402546042052725A00926F18 /* LMJRefreshCollectionViewController.m in Sources */,
 				40388D9920560C4F00346131 /* LMJDrawStrPicsViewController.m in Sources */,
 				40388CD220560BC400346131 /* LMJUsertProtocol.m in Sources */,
@@ -1598,8 +1815,11 @@
 				40F39C8020512C73001209BA /* CommonConst.m in Sources */,
 				40388CCB20560BC400346131 /* LMJRunTimeViewController.m in Sources */,
 				40F39C6C20511AEE001209BA /* ViewController.m in Sources */,
+				408F4D8E205A3EC300BC2D1F /* SINStatusViewModel.m in Sources */,
+				408F4D91205A3EC400BC2D1F /* SINUser.m in Sources */,
 				40388D5B20560C2700346131 /* LMJCAKeyFrameAnimationViewController.m in Sources */,
 				40388E2C205672D400346131 /* LMJAutoLayoutViewController.m in Sources */,
+				408F4D86205A3EC300BC2D1F /* SINProfileViewController.m in Sources */,
 				40388E20205672D400346131 /* LMJDragTableViewController.m in Sources */,
 				40388E74205672F700346131 /* VIDTabBarController.m in Sources */,
 				402545FA2052725A00926F18 /* LMJVerticalFlowLayout.m in Sources */,
@@ -1608,6 +1828,7 @@
 				40388DAA20560C4F00346131 /* LMJDotRemoveViewController.m in Sources */,
 				40388CCF20560BC400346131 /* LMJNSThreadViewController.m in Sources */,
 				40388E49205672D400346131 /* LMJTeam.m in Sources */,
+				408F4D8C205A3EC300BC2D1F /* SINBroswerCell.m in Sources */,
 				40388E22205672D400346131 /* LMJVFLLayoutViewController.m in Sources */,
 				40F39CBC205215CA001209BA /* LMJBaseResponse.m in Sources */,
 				40388D9620560C4F00346131 /* LMJScreenShotViewController.m in Sources */,
@@ -1618,10 +1839,13 @@
 				40F39CC7205215CA001209BA /* LMJIntroductoryPagesHelper.m in Sources */,
 				40388E4C205672D400346131 /* LMJAdaptFontCell.m in Sources */,
 				40388E82205672F700346131 /* VIDCollectionViewVideoCell.m in Sources */,
+				408F4D87205A3EC300BC2D1F /* SINHomeViewController.m in Sources */,
 				40388CD620560BC400346131 /* LMJRunTimeTest+LMJWork.m in Sources */,
+				408F4D89205A3EC300BC2D1F /* SINTabBarController.m in Sources */,
 				40388CD320560BC400346131 /* LMJRunTimeTest+LMJMethod.m in Sources */,
 				40388E2D205672D400346131 /* LMJNavBarFadeViewController.m in Sources */,
 				40388E52205672D400346131 /* LMJAdaptFontViewController.m in Sources */,
+				408F4D8B205A3EC300BC2D1F /* SINBroswerViewController.m in Sources */,
 				40388E42205672D400346131 /* LMJHorizontalLayoutViewController.m in Sources */,
 				40F39CD4205215CA001209BA /* UIColor+Random.m in Sources */,
 				40388E23205672D400346131 /* LMJCalendarViewController.m in Sources */,
@@ -1634,6 +1858,7 @@
 				40388CCE20560BC400346131 /* XLMJThread.m in Sources */,
 				402545F92052725A00926F18 /* LMJHorizontalFlowLayout.m in Sources */,
 				40388E43205672D400346131 /* LMJNoNavBarViewController.m in Sources */,
+				408F4D83205A3EC300BC2D1F /* SINSQLiteManager.m in Sources */,
 				40388DB1205672AA00346131 /* LMJNewViewController.m in Sources */,
 				40F39CD3205215CA001209BA /* UIButton+LMJ.m in Sources */,
 				40388CCD20560BC400346131 /* LMJProtocolViewController.m in Sources */,
@@ -1641,22 +1866,26 @@
 				40388E45205672D400346131 /* LMJKeyboardHandleViewController.m in Sources */,
 				40388CD120560BC400346131 /* LMJOraceDataBase.m in Sources */,
 				40388E21205672D400346131 /* LMJTableSDWebImageViewController.m in Sources */,
+				408F4D8D205A3EC300BC2D1F /* SINBroswerAnimator.m in Sources */,
 				40388D5920560C2700346131 /* LMJCAAnimationGroupViewController.m in Sources */,
 				40388E3A205672D400346131 /* LMJCountDownCell.m in Sources */,
 				40F39C6920511AEE001209BA /* ZPAppDelegate.m in Sources */,
 				40388D9720560C4F00346131 /* LMJDrawLineViewController.m in Sources */,
+				408F4D95205A3EC400BC2D1F /* SINUnLoginRegisterView.m in Sources */,
 				40388D4F20560C2700346131 /* LMJZDTPViewController.m in Sources */,
 				40F39CD1205215CA001209BA /* UIView+GestureCallback.m in Sources */,
 				40388DAB20560C4F00346131 /* LMJDrawRectViewController.m in Sources */,
 				40388E7B205672F700346131 /* ZFVideoResolution.m in Sources */,
 				4025460B2052725A00926F18 /* LMJWordArrowItem.m in Sources */,
 				40388E7C205672F700346131 /* ZFVideoModel.m in Sources */,
+				408F4D82205A3EC300BC2D1F /* SINUserManager.m in Sources */,
 				40388CC020560BC400346131 /* LMJDynamicViewController.m in Sources */,
 				40388D5320560C2700346131 /* LMJDYViewController.m in Sources */,
 				40388CC720560BC400346131 /* LMJBlockLoopViewController.m in Sources */,
 				40388D5720560C2700346131 /* LMJCALayerYSDHViewController.m in Sources */,
 				402545FD2052725A00926F18 /* LMJSettingCell.m in Sources */,
 				402546082052725A00926F18 /* LMJNavigationController.m in Sources */,
+				408F4D9A205A3EC400BC2D1F /* SINStatusRetweetView.m in Sources */,
 				402546022052725A00926F18 /* LMJTextViewController.m in Sources */,
 				40388E27205672D400346131 /* LMJFingerCheckViewController.m in Sources */,
 				40388E7D205672F700346131 /* VIDTableViewVideoCell.m in Sources */,
@@ -1668,9 +1897,11 @@
 				40388E24205672D400346131 /* MJDownloadManager.m in Sources */,
 				40388CCC20560BC400346131 /* LMJChildBlockViewController.m in Sources */,
 				40388E39205672D400346131 /* LMJListTimerCountDownViewController.m in Sources */,
+				408F4D41205A3E8100BC2D1F /* LMJMessageViewController.m in Sources */,
 				40F39CCE205215CA001209BA /* NSDecimalNumber+Addtion.m in Sources */,
 				40388D4E20560C2700346131 /* LMJYinLZDTViewController.m in Sources */,
 				40388CD020560BC400346131 /* LMJModalBlockViewController.m in Sources */,
+				408F4D88205A3EC300BC2D1F /* SINPublishViewController.m in Sources */,
 				40388D5D20560C2700346131 /* LMJHDZSQViewController.m in Sources */,
 				40388E79205672F700346131 /* VIDMoviePlayerViewController.m in Sources */,
 				40388E41205672D400346131 /* LMJYYTextViewController.m in Sources */,
@@ -1691,6 +1922,9 @@
 				40F39CBE205215CA001209BA /* CalendarReminderManager.m in Sources */,
 				40388E7E205672F700346131 /* VIDVideoDownloadedCell.m in Sources */,
 				40388E4B205672D400346131 /* LMJParagraph.m in Sources */,
+				408F4D81205A3EC300BC2D1F /* SINStatusListDAL.m in Sources */,
+				408F4D92205A3EC400BC2D1F /* SINStatusToolBarView.m in Sources */,
+				408F4D85205A3EC300BC2D1F /* SINDiscoveryViewController.m in Sources */,
 				40388DA120560C4F00346131 /* LMJFingerLockViewController.m in Sources */,
 				402546072052725A00926F18 /* LMJTableViewController.m in Sources */,
 				40388E4A205672D400346131 /* LMJGroup.m in Sources */,
@@ -1701,8 +1935,10 @@
 				402546092052725A00926F18 /* LMJItemSection.m in Sources */,
 				40388CC420560BC400346131 /* WPFAttachmentView.m in Sources */,
 				40388E78205672F700346131 /* VIDLocalViewController.m in Sources */,
+				408F4D93205A3EC400BC2D1F /* SINStatusCell.m in Sources */,
 				40F39CBF205215CA001209BA /* GVUserDefaults+LMJ.m in Sources */,
 				40388E30205672D400346131 /* LMJAlertViewsViewController.m in Sources */,
+				408F4D96205A3EC400BC2D1F /* SINPublishToolBar.m in Sources */,
 				40F39CD2205215CA001209BA /* UIViewController+DDPopUpViewController.m in Sources */,
 				40F39CC0205215CA001209BA /* JXTAlertController.m in Sources */,
 				4025460A2052725A00926F18 /* LMJWordItem.m in Sources */,
@@ -1714,9 +1950,12 @@
 				40388E35205672D400346131 /* LMJCoordinateModel.m in Sources */,
 				40388E26205672D400346131 /* NSString+MJDownload.m in Sources */,
 				40388CD420560BC400346131 /* LMJRunTimeTest.m in Sources */,
+				408F4D8F205A3EC300BC2D1F /* SINStatus.m in Sources */,
+				408F4D9B205A3EC400BC2D1F /* SINPostStatusService.m in Sources */,
 				40388DAC20560C4F00346131 /* LMJDrawingView.m in Sources */,
 				40388E3B205672D400346131 /* LMJAnnotationCustomPopView.m in Sources */,
 				40388D5E20560C2700346131 /* LMJLZDHDTViewController.m in Sources */,
+				408F4D8A205A3EC300BC2D1F /* SINMessageViewController.m in Sources */,
 				402546012052725A00926F18 /* LMJStaticTableViewController.m in Sources */,
 				40388E44205672D400346131 /* LMJAnimationNavBarViewController.m in Sources */,
 				40388DA020560C4F00346131 /* LMJDrawBaseViewController.m in Sources */,
@@ -1725,6 +1964,7 @@
 				40388CC920560BC400346131 /* LMJRunLoopViewController.m in Sources */,
 				40388D5420560C2700346131 /* LMJCALayerViewController.m in Sources */,
 				40388DA520560C4F00346131 /* LMJPiesViewController.m in Sources */,
+				408F4D9C205A3EC400BC2D1F /* SINStatusListService.m in Sources */,
 				402546052052725A00926F18 /* LMJNavUIBaseViewController.m in Sources */,
 				40388E29205672D400346131 /* LMJExpandHeader.m in Sources */,
 				40388E25205672D400346131 /* MJDownloadConst.m in Sources */,
